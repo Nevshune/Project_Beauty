@@ -1,18 +1,5 @@
 <?php
-session_start();
-
-
-
-$ses_id = (isset($_SESSION['ses_id']) && $_SESSION['ses_id'] != '') ? $_SESSION['ses_id'] : '';
-$ses_grade = (isset($_SESSION['ses_grade']) && $_SESSION['ses_grade'] != '') ? $_SESSION['ses_grade'] : '';
-
-
-if ($ses_id == '') {
-    echo "<script>
-      alert('로그인이 필요한 서비스입니다.');
-      window.location.href = './login.php';
-  </script>";
-};
+include './inc/common.php'
 ?>
 
 
@@ -55,7 +42,7 @@ if ($ses_id == '') {
     <nav class="w-screen h-[80px] bg-blue-400  px-8 fixed top-0 left-0">
         <div class="w-full h-full flex justify-between items-center">
             <h1 class="text-3xl text-white font-bold cursor-default">Admin</h1>
-            <a href="logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
+            <a href="./process/logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
         </div>
     </nav>
 
@@ -65,7 +52,7 @@ if ($ses_id == '') {
     <div class="w-full h-full flex flex-col items-center justify-center px-20">
         <div class="text-[32px] font-bold text-[#333333] py-8">강의 등록</div>
 
-        <form action="class_input_process.php" method="POST" enctype="multipart/form-data" class="w-full">
+        <form action="./process/class_input_process.php" method="POST" enctype="multipart/form-data" class="w-full">
             <div class="w-full h-24 flex items-center">
                 <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">강의명</div>
                 <input type="text" name="className" class="w-[50%]" required>

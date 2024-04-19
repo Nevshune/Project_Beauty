@@ -1,30 +1,7 @@
 <?php
-session_start();
+ include "./inc/common.php";
 
-$ses_id = (isset($_SESSION['ses_id']) && $_SESSION['ses_id'] != '') ? $_SESSION['ses_id'] : '';
-$ses_grade = (isset($_SESSION['ses_grade']) && $_SESSION['ses_grade'] != '') ? $_SESSION['ses_grade'] : '';
-
-if ($ses_id == '') {
-  echo "<script>
-      alert('로그인이 필요한 서비스입니다.');
-      window.location.href = './login.php';
-  </script>";
-};
-
-// 데이터베이스 연결 설정
-$host = "127.0.0.1";
-$user = "root";
-$pass = "";
-$db = "project_beauty";
-$port = "3306";
-
-// MySQL 연결
-$conn = new mysqli($host, $user, $pass, $db);
-
-// 연결 확인
-if ($conn->connect_error) {
-  die("MySQL 연결 실패: " . $conn->connect_error);
-}
+ include "./inc/dbconfig.php";
 
 // 강의 목록 조회
 $sql = "SELECT * FROM class_list ORDER BY Num DESC";
@@ -68,7 +45,7 @@ $result = $conn->query($sql);
   <nav class="w-screen h-[80px] bg-blue-400 px-8 fixed top-0 left-0">
     <div class="w-full h-full flex justify-between items-center">
       <h1 class="text-3xl text-white font-bold cursor-default">Admin</h1>
-      <a href="logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
+      <a href="./process/logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
     </div>
   </nav>
 

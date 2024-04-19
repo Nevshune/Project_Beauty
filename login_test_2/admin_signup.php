@@ -1,18 +1,5 @@
 <?php
-$host = "127.0.0.1";
-$user = "root";
-$pass = "";
-$db = "project_beauty";
-$port = "3306";
-
-// MySQL 연결
-$conn = new mysqli($host, $user, $pass, $db);
-
-// 연결 확인
-if ($conn->connect_error) {
-    die("MySQL 연결 실패: " . $conn->connect_error);
-}
-
+ include './inc/dbconfig.php';
 // 새로운 관리자 계정 추가
 $admin_id = "kangdon";
 $admin_pw = "test01"; // 실제로는 사용자가 입력한 비밀번호를 받아야 합니다.
