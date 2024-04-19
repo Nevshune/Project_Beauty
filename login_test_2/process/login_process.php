@@ -42,18 +42,18 @@ if ($result->num_rows == 1) {
         $_SESSION['ses_id'] = $id;
         echo "<script>
                 alert('로그인 성공');
-                self.location.href='index.php';
+                self.location.href='../index.php';
               </script>";
     } else {
         echo "<script>
                 alert('비밀번호가 일치하지 않습니다.');
-                self.location.href='login.php';
+                self.location.href='../login.php';
               </script>";
     }
 } else {
     echo "<script>
             alert('해당하는 아이디가 없습니다.');
-            self.location.href='login.php';
+            self.location.href='../login.php';
           </script>";
 }
 
