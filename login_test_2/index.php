@@ -10,44 +10,10 @@ $result = $conn->query($sql);
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+<?php include './header.php'; ?>
+<?php include './nav.php'; ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
-  <style type="text/tailwindcss">
-    @layer utilities {
-      .content-auto {
-        content-visibility: auto;
-      }
-    }
-  </style>
-  <!-- Tailwind end -->
 
-  <title>메인</title>
-</head>
-
-<body class="relative">
-  <nav class="w-screen h-[80px] bg-blue-400 px-8 fixed top-0 left-0">
-    <div class="w-full h-full flex justify-between items-center">
-      <h1 class="text-3xl text-white font-bold cursor-default">Admin</h1>
-      <a href="./process/logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
-    </div>
-  </nav>
 
   <div class="w-full h-[80px]"></div>
 
@@ -91,7 +57,7 @@ $result = $conn->query($sql);
     if ($result->num_rows > 0) {
       while ($row = $result->fetch_assoc()) {
     ?>
-        <div class="w-full border-2 flex items-center">
+        <div class="w-full border-2 border-t-0 flex items-center">
           <div class="w-[15%] h-[90%] flex justify-center items-center border-r-[1px] border-gray-200">
             <div><?php echo $row['className']; ?></div>
           </div>
@@ -117,7 +83,7 @@ $result = $conn->query($sql);
           </div>
 
           <div class="w-[5%] flex flex-col justify-center items-center gap-2">
-            <a href="./board_reply.php" Num=<?php echo $row['Num']; ?>" class="rounded-md bg-blue-500 p-2 px-3 font-bolder text-white">수정</a>
+            <a href="./board_reply.php?num=<?php echo $row['Num']; ?>" class="rounded-md bg-blue-500 p-2 px-3 font-bolder text-white">수정</a>
             <form id="deleteForm_<?php echo $row['Num']; ?>" action="./process/delete_class.php" method="post" onsubmit="return confirmDelete(<?php echo $row['Num']; ?>)">
               <button type="submit" class="rounded-md bg-red-500 p-2 px-3 font-bolder text-white" name="num" value="<?php echo $row['Num']; ?>">삭제</button>
             </form>
@@ -134,16 +100,16 @@ $result = $conn->query($sql);
   </div>
 
   <script>
-  function confirmDelete(num) {
-    var result = confirm("정말로 이 강의를 삭제하시겠습니까?");
-    if (result) {
-      return true;
-    } else {
-      event.preventDefault();
-      return false;
+    function confirmDelete(num) {
+      var result = confirm("정말로 이 강의를 삭제하시겠습니까?");
+      if (result) {
+        return true;
+      } else {
+        event.preventDefault();
+        return false;
+      }
     }
-  }
-</script>
+  </script>
 
 
 </body>
