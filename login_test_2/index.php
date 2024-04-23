@@ -1,7 +1,7 @@
 <?php
- include "./inc/common.php";
+include "./inc/common.php";
 
- include "./inc/dbconfig.php";
+include "./inc/dbconfig.php";
 
 // 강의 목록 조회
 $sql = "SELECT * FROM class_list ORDER BY Num DESC";
@@ -100,7 +100,7 @@ $result = $conn->query($sql);
             <div class=" "><?php echo $row['classSub']; ?></div>
           </div>
 
-          <div class="w-[20%] h-[90%] flex justify-center items-center border-r-[1px] border-gray-200 overflow-hidden " >
+          <div class="w-[20%] h-[90%] flex justify-center items-center border-r-[1px] border-gray-200 overflow-hidden ">
             <img class="h-[200px] w-[200px] object-cover" src="./uploads/<?php echo $row['classThumbnail'] ?>" alt="">
           </div>
 
@@ -117,8 +117,10 @@ $result = $conn->query($sql);
           </div>
 
           <div class="w-[5%] flex flex-col justify-center items-center gap-2">
-            <a href="#" class="rounded-md bg-blue-500 p-2 px-3 font-bolder text-white">수정</a>
-            <a href="#" class="rounded-md bg-red-500 p-2 px-3 font-bolder text-white">삭제</a>
+            <a href="./board_reply.php" Num=<?php echo $row['Num']; ?>" class="rounded-md bg-blue-500 p-2 px-3 font-bolder text-white">수정</a>
+            <form action="./process/delete_class.php" method="post">
+              <button type="submit" class="rounded-md bg-red-500 p-2 px-3 font-bolder text-white" value="<?php echo $row['Num']; ?>" name="num">삭제</button>
+            </form>
           </div>
         </div>
     <?php
