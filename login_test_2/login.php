@@ -12,7 +12,7 @@
     <label for="">아이디</label>
     <input type="text" name="id" id="id" placeholder="아이디">
     <label for="">비밀번호</label>
-    <input type="text" name="pw" id="pw" placeholder="비번">
+    <input type="password" name="pw" id="pw" placeholder="비번">
     <button id="btn_login">로그인</button>
   </form>
 </body>
