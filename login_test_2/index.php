@@ -118,8 +118,8 @@ $result = $conn->query($sql);
 
           <div class="w-[5%] flex flex-col justify-center items-center gap-2">
             <a href="./board_reply.php" Num=<?php echo $row['Num']; ?>" class="rounded-md bg-blue-500 p-2 px-3 font-bolder text-white">수정</a>
-            <form action="./process/delete_class.php" method="post">
-              <button type="submit" class="rounded-md bg-red-500 p-2 px-3 font-bolder text-white" value="<?php echo $row['Num']; ?>" name="num">삭제</button>
+            <form id="deleteForm_<?php echo $row['Num']; ?>" action="./process/delete_class.php" method="post" onsubmit="return confirmDelete(<?php echo $row['Num']; ?>)">
+              <button type="submit" class="rounded-md bg-red-500 p-2 px-3 font-bolder text-white" name="num" value="<?php echo $row['Num']; ?>">삭제</button>
             </form>
           </div>
         </div>
@@ -132,6 +132,20 @@ $result = $conn->query($sql);
     <!-- 반복종료 -->
 
   </div>
+
+  <script>
+  function confirmDelete(num) {
+    var result = confirm("정말로 이 강의를 삭제하시겠습니까?");
+    if (result) {
+      return true;
+    } else {
+      event.preventDefault();
+      return false;
+    }
+  }
+</script>
+
+
 </body>
 
 </html>
