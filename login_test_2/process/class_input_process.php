@@ -1,19 +1,8 @@
 <?php
-// // 데이터베이스 연결 설정
-// $host = "127.0.0.1";
-// $user = "root";
-// $pass = "";
-// $db = "project_beauty";
-// $port = "3306";
-
-// // MySQL 연결
-// $conn = new mysqli($host, $user, $pass, $db);
-
-// // 연결 확인
-// if ($conn->connect_error) {
-//     die("MySQL 연결 실패: " . $conn->connect_error);
-// }
 include "../inc/dbconfig.php";
+
+// 파일 크기 제한 설정 (40MB)
+$maxFileSize = 40 * 1024 * 1024; // 40MB
 
 // POST로 전송된 데이터 가져오기
 $className = $_POST['className'];
@@ -24,6 +13,31 @@ $classExpose = isset($_POST['classExpose']) ? 1 : 0; // 체크박스가 체크�
 
 // 이미지가 있는지 확인하고 파일 업로드 처리
 if ($_FILES['classThumbnail']['name'] != "") {
+    // 파일 크기 확인
+    if ($_FILES['classThumbnail']['size'] > $maxFileSize) {
+        echo "<script>
+                alert('이미지 파일 크기는 40MB 이하여야 합니다.');
+                window.location.href = '../index.php'; // 파일 크기 초과 시 이동할 페이지
+              </script>";
+        exit;
+    }
+    $maxWidth = 400;
+    $maxHeight = 400;
+
+    // 이미지 정보 가져오기
+    $imageInfo = getimagesize($_FILES['classThumbnail']['tmp_name']);
+    $imageWidth = $imageInfo[0]; // 이미지의 가로 크기
+    $imageHeight = $imageInfo[1]; // 이미지의 세로 크기
+
+    // 이미지 크기 확인
+    if ($imageWidth > $maxWidth || $imageHeight > $maxHeight) {
+        echo "<script>
+                alert('이미지 크기는 최대 400x400 이어야 합니다.');
+                window.location.href = '../index.php'; // 이미지 크기 초과 시 이동할 페이지
+              </script>";
+        exit;
+    }
+
     $classThumbnail = $_FILES['classThumbnail']['name']; // 업로드된 파일명
     $tempName = $_FILES['classThumbnail']['tmp_name']; // 임시 파일 경로
     $uploadPath = "../uploads/" . $classThumbnail; // 업로드될 파일 경로
@@ -32,7 +46,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
     if (!move_uploaded_file($tempName, $uploadPath)) {
         echo "<script>
                 alert('이미지 업로드에 실패했습니다.');
-                window.location.href = 'index.php'; // 이미지 업로드 실패 시 이동할 페이지
+                window.location.href = '../index.php'; // 이미지 업로드 실패 시 이동할 페이지
               </script>";
         exit;
     }
@@ -60,4 +74,3 @@ if ($stmt->execute()) {
 
 $stmt->close();
 $conn->close();
-?>
