@@ -37,7 +37,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
         exit;
     }
 } else {
-    $classThumbnail = ""; // 이미지가 없으면 빈 값으로 설정
+    $classThumbnail = "noImage.png"; // 이미지가 없으면 빈 값으로 설정
 }
 
 // 데이터베이스에 새로운 강의 정보 추가
