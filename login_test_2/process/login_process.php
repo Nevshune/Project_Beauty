@@ -10,19 +10,20 @@ if ($pw == "") {
     die(json_encode(['result' => 'empty_password']));
 }
 
-$host = "127.0.0.1";
-$user = "root";
-$pass = "";
-$db = "project_beauty";
-$port = "3306";
+// $host = "127.0.0.1";
+// $user = "root";
+// $pass = "";
+// $db = "project_beauty";
+// $port = "3306";
 
-// MySQL 연결
-$conn = new mysqli($host, $user, $pass, $db);
+// // MySQL 연결
+// $conn = new mysqli($host, $user, $pass, $db);
 
-// 연결 확인
-if ($conn->connect_error) {
-    die("MySQL 연결 실패: " . $conn->connect_error);
-}
+// // 연결 확인
+// if ($conn->connect_error) {
+//     die("MySQL 연결 실패: " . $conn->connect_error);
+// }
+include "../inc/dbconfig.php";
 
 // 관리자 계정 조회
 $sql = "SELECT * FROM Admin_Account WHERE Admin_ID = ?";
