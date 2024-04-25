@@ -4,7 +4,7 @@ $title = "미용아카데미로 전화하세요를 줄이면 미아콜";
 ?>
 <?php include './header.php'; ?> 
 
-<script src="./js/pushQ.js"></script>
+
 
 <?php 
 $nav1 ="영진";
@@ -42,6 +42,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
+<script src="./js/pushQ.js"></script>
 
 
 
