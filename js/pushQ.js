@@ -1,30 +1,45 @@
 function sendPushRequest() {
-  var inputs = {}; // 입력된 내용을 담을 객체 생성
-
-  // 각 입력란의 값을 수집하여 객체에 추가
+  // 입력된 값 확인
   var inputsElements = document.querySelectorAll(".input_1");
-  inputsElements.forEach(function(element) {
-      var inputName = element.getAttribute("name"); // 각 입력란의 이름 속성 가져오기
-      inputs[inputName] = element.value; // 이름 속성을 객체의 키로 사용하여 값 추가
+  var inputs = {};
+  var isEmpty = false;
+
+  inputsElements.forEach(function (element) {
+    var inputName = element.getAttribute("name");
+    var inputValue = element.value.trim(); // 공백 제거
+
+    if (!inputValue) {
+      // 값이 비어있는 경우
+      if (!isEmpty) {
+        // 빈 값에 대한 요청 팝업이 하나만 뜨도록 함
+        alert(inputName + "을(를) 입력하세요.");
+        isEmpty = true;
+      }
+      return;
+    }
+
+    inputs[inputName] = inputValue;
   });
 
-  // 서버로 전송할 JSON 문자열 생성
+  if (isEmpty) {
+    return; // 값이 비어있으면 전송 중지
+  }
+
   var jsonBody = JSON.stringify(inputs);
 
-  // AJAX 요청을 통해 JSON 문자열을 서버로 전송
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "../process/puchQueue.php", true);
+  xhr.open("POST", "./process/pushQueue.php", true);
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  xhr.onreadystatechange = function() {
-      if (xhr.readyState === XMLHttpRequest.DONE) {
-          if (xhr.status === 200) {
-              // 성공적으로 요청을 보낸 후 할 일을 작성합니다.
-              console.log(xhr.responseText); // 응답 확인
-          } else {
-              // 요청에 실패한 경우 처리할 내용을 작성합니다.
-              console.error('요청 실패');
-          }
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        alert("Push 메시지가 성공적으로 전송되었습니다.");
+        window.location.href = "main.php"; // 성공했을 때 main.php로 이동
+      } else {
+        alert("Push 메시지 전송에 실패했습니다.");
+        location.reload(); // 실패했을 때 페이지 새로고침
       }
+    }
   };
-  xhr.send("body=" + encodeURIComponent(jsonBody)); // body 내용을 전송
+  xhr.send("body=" + encodeURIComponent(jsonBody));
 }
