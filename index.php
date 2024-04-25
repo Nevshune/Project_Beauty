@@ -1,9 +1,19 @@
 <?php include './Admin/inc/dbconfig.php'; ?>
-
+<?php 
+$title = "미용아카데미로 전화하세요를 줄이면 미아콜";
+?>
 <?php include './header.php'; ?> 
-<?php include './nav.php'; ?> 
-<?php include './section_main.php'; ?> 
 
+<script src="./js/pushQ.js"></script>
+
+<?php 
+$nav1 ="영진";
+$nav2 ="영진2";
+$nav3 ="영진3";
+?>
+<?php include './nav.php'; ?> 
+
+<?php include './section_main.php'; ?> 
 
 <img src="./Admin/uploads/<?php echo $row["classThumbnail"] ?>" alt="">
 
