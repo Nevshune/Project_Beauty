@@ -1,4 +1,4 @@
-<nav class="w-full h-[80px] fixed bg-white shadow-md flex justify-center">
+<nav class="w-full h-[80px] fixed bg-white shadow-md flex justify-center z-[100]">
     <div class="w-full max-w-[1440px] h-full flex justify-between items-center px-8">
         <div>LOGO</div>
         <div class="flex flex-row items-center gap-4">
@@ -9,4 +9,3 @@
         </div>
     </div>
 </nav>
-<div class="w-full h-[80px]"></div>
