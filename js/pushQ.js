@@ -1,3 +1,4 @@
+
 function sendPushRequest() {
   // 입력된 값 확인
   var inputsElements = document.querySelectorAll(".input_1");
@@ -8,10 +9,8 @@ function sendPushRequest() {
     var inputName = element.getAttribute("name");
     var inputValue = element.value.trim(); // 공백 제거
 
-    if (!inputValue) {
-      // 값이 비어있는 경우
-      if (!isEmpty) {
-        // 빈 값에 대한 요청 팝업이 하나만 뜨도록 함
+    if (!inputValue) { // 값이 비어있는 경우
+      if (!isEmpty) { // 빈 값에 대한 요청 팝업이 하나만 뜨도록 함
         alert(inputName + "을(를) 입력하세요.");
         isEmpty = true;
       }
@@ -34,7 +33,7 @@ function sendPushRequest() {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       if (xhr.status === 200) {
         alert("Push 메시지가 성공적으로 전송되었습니다.");
-        window.location.href = "main.php"; // 성공했을 때 main.php로 이동
+        window.location.href = "index.php"; // 성공했을 때 main.php로 이동
       } else {
         alert("Push 메시지 전송에 실패했습니다.");
         location.reload(); // 실패했을 때 페이지 새로고침
