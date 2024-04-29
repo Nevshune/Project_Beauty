@@ -12,6 +12,7 @@ function sendPushRequest() {
     if (!inputValue) { // 값이 비어있는 경우
       if (!isEmpty) { // 빈 값에 대한 요청 팝업이 하나만 뜨도록 함
         alert(inputName + "을(를) 입력하세요.");
+        element.focus();
         isEmpty = true;
       }
       return;
