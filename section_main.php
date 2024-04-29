@@ -14,11 +14,22 @@
             </div>
             <div class="flex items-center gap-2">
                 <!-- <div>전화번호 : </div> -->
-                <select class="input_1  text-gray-400 border-[#cccccc]  placeholder-slate-400" name="교육과정" placeholder="교육과정" required>
+                <select class="input_1 text-gray-400 border-[#cccccc] placeholder-slate-400" name="교육과정" placeholder="교육과정" required>
                     <option class="text-[#cccccc]" value="">교육과정 선택</option>
-                    <option value="과정1">과정1</option>
-                    <option value="과정2">과정2</option>
-                    <option value="과정3">과정3</option>
+                    <?php
+                    // class_list 테이블에서 classExpose가 1인 데이터 조회                    
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        // 결과 출력
+                        while ($row = $result->fetch_assoc()) {
+                            // 옵션에 각 과정의 className을 넣음
+                            echo "<option value='" . $row["className"] . "'>" . $row["className"] . "</option>";
+                        }
+                    } else {
+                        echo "<option disabled>조회된 강의가 없습니다.</option>";
+                    }
+                    ?>
                 </select>
             </div>
             <div class="flex items-center">
