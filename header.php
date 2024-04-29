@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
+    <!-- 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/1821147619.js" crossorigin="anonymous"></script>
 
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>

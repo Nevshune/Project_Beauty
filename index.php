@@ -13,7 +13,7 @@ $nav3 = "영진3";
 ?>
 <?php include './nav.php'; ?>
 <?php include './section_mainpage.php'; ?>
-<?php include './section_main.php'; ?>
+
 <?php include './sidebar.php' ?>
 
 
@@ -44,7 +44,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
-
+<?php include './section_main.php'; ?>
 
 
 

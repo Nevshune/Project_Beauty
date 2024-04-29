@@ -1,25 +1,36 @@
 <script src="./js/pushQ.js"></script>
 
-<form class="w-full h-[100px] bg-gray-400 fixed bottom-0 left-0 flex justify-center">
+<form class="w-full  bg-white fixed bottom-0 left-0 flex justify-center">
     <div class="w-full max-w-[1440px] h-full flex justify-between items-center gap-8 p-4">
         <div class="text-3xl">asd</div>
-        <div class="flex">
+        <div class="flex items-center gap-3">
             <div class="flex items-center gap-2">
-                <div>이름 : </div>
-                <input class="input_1" name="이름" rows="4" cols="50"></input>
+                <!-- <div>이름 : </div> -->
+                <input class="input_1 border-[#cccccc] placeholder-slate-400" name="이름" rows="4" cols="50" placeholder="성함" required></input>
             </div>
             <div class="flex items-center gap-2">
-                <div>나이 : </div>
-                <input class="input_1" name="나이" rows="4" cols="50"></input>
+                <!-- <div>나이 : </div> -->
+                <input class="input_1 border-[#cccccc] placeholder-slate-400" name="연락처" rows="4" cols="50" placeholder="연락처" required></input>
             </div>
             <div class="flex items-center gap-2">
-                <div>전화번호 : </div>
-                <input class="input_1" name="전화번호" rows="4" cols="50"></input>
+                <!-- <div>전화번호 : </div> -->
+                <select class="input_1  text-gray-400 border-[#cccccc]  placeholder-slate-400" name="교육과정" placeholder="교육과정" required>
+                    <option class="text-[#cccccc]" value="">교육과정 선택</option>
+                    <option value="과정1">과정1</option>
+                    <option value="과정2">과정2</option>
+                    <option value="과정3">과정3</option>
+                </select>
             </div>
-            <button class="p-2 border-2 bg-blue-500 rounded-md" type="button" onclick="sendPushRequest()">Push 메시지 보내기</button> <!-- type="button" 추가 -->
+            <div class="flex items-center">
+                <input type="checkbox">
+                <p>개인정보 수집에 동의합니다.</p>
+            </div>
+            <button class="p-2  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
         </div>
 
-        <a href="#" class=" duration-75">asdasd</a>
+        <a href="#" class=" duration-75 flex-col items-center"><i class="fa-solid fa-chevron-up text-3xl leading-none text-[#777777]"></i>
+            <p class="text-lg leading-none text-[#5879E2]">TOP</p>
+        </a>
 
     </div>
 </form>
