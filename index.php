@@ -1,4 +1,6 @@
-<?php include './Admin/inc/dbconfig.php'; ?>
+<?php include './Admin/inc/dbconfig.php';
+$sql = "SELECT * FROM class_list WHERE classExpose = 1";
+?>
 <?php
 $title = "미용아카데미로 전화하세요를 줄이면 미아콜";
 ?>
@@ -13,6 +15,7 @@ $nav3 = "영진3";
 ?>
 <?php include './nav.php'; ?>
 <?php include './section_mainpage.php'; ?>
+<?php include './section_main.php'; ?>
 
 <?php include './sidebar.php' ?>
 
@@ -24,8 +27,6 @@ $nav3 = "영진3";
 <?php
 
 // 계정 조회
-$sql = "SELECT * FROM class_list WHERE classExpose = 1";
-
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -44,7 +45,6 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
-<?php include './section_main.php'; ?>
 
 
 
