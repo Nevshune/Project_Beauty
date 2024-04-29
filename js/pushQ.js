@@ -1,5 +1,5 @@
-
 function sendPushRequest() {
+  
   // 입력된 값 확인
   var inputsElements = document.querySelectorAll(".input_1");
   var inputs = {};
@@ -11,7 +11,7 @@ function sendPushRequest() {
 
     if (!inputValue) { // 값이 비어있는 경우
       if (!isEmpty) { // 빈 값에 대한 요청 팝업이 하나만 뜨도록 함
-        alert(inputName + "을(를) 입력하세요.");
+        // alert(inputName + "을(를) 입력하세요.");
         element.focus();
         isEmpty = true;
       }
@@ -24,6 +24,14 @@ function sendPushRequest() {
   if (isEmpty) {
     return; // 값이 비어있으면 전송 중지
   }
+
+  // 개인정보 동의 확인
+  var consentCheckbox = document.querySelector('input[type="checkbox"]');
+  if (!consentCheckbox.checked) {
+    alert("개인정보 수집에 동의해야 합니다.");
+    return;
+  }
+
 
   var jsonBody = JSON.stringify(inputs);
 
