@@ -24,13 +24,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // 파일 크기 확인
         if ($fileSize > $maxFileSize) {
-            echo "<script>alert('이미지 파일 크기는 40MB 이하여야 합니다.'); window.location.href = '../index.php';</script>";
+            echo "<script>alert('이미지 파일 크기는 40MB 이하여야 합니다.'); self.location.reload();</script>";
             exit;
         }
 
         // 파일 유형 확인
         if (!in_array($fileType, $allowedFileTypes)) {
-            echo "<script>alert('지원되지 않는 파일 형식입니다.'); window.location.href = '../index.php';</script>";
+            echo "<script>alert('지원되지 않는 파일 형식입니다.'); self.location.reload();</script>";
             exit;
         }
 
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (move_uploaded_file($fileTmpPath, $uploadPath)) {
             $classThumbnail = $newFileName;
         } else {
-            echo "<script>alert('이미지 업로드에 실패했습니다.'); window.location.href = '../index.php';</script>";
+            echo "<script>alert('이미지 업로드에 실패했습니다.'); self.location.reload();</script>";
             exit;
         }
     } elseif (isset($_POST['existingThumbnail'])) {

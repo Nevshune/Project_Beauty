@@ -26,7 +26,7 @@ if ($pw == "") {
 include "../inc/dbconfig.php";
 
 // 관리자 계정 조회
-$sql = "SELECT * FROM Admin_Account WHERE Admin_ID = ?";
+$sql = "SELECT * FROM admin_account WHERE Admin_ID = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $id);
 $stmt->execute();

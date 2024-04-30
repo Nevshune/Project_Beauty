@@ -17,7 +17,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
     if ($_FILES['classThumbnail']['size'] > $maxFileSize) {
         echo "<script>
                 alert('이미지 파일 크기는 40MB 이하여야 합니다.');
-                window.location.href = '../index.php'; // 파일 크기 초과 시 이동할 페이지
+                self.location.reload(); // 파일 크기 초과 시 이동할 페이지
               </script>";
         exit;
     }
@@ -33,7 +33,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
     if ($imageWidth > $maxWidth || $imageHeight > $maxHeight) {
         echo "<script>
                 alert('이미지 크기는 최대 400x400 이어야 합니다.');
-                window.location.href = '../index.php'; // 이미지 크기 초과 시 이동할 페이지
+                self.location.reload(); // 이미지 크기 초과 시 이동할 페이지
               </script>";
         exit;
     }
@@ -46,7 +46,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
     if (!move_uploaded_file($tempName, $uploadPath)) {
         echo "<script>
                 alert('이미지 업로드에 실패했습니다.');
-                window.location.href = '../index.php'; // 이미지 업로드 실패 시 이동할 페이지
+                self.location.reload(); // 이미지 업로드 실패 시 이동할 페이지
               </script>";
         exit;
     }
