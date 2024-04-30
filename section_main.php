@@ -2,7 +2,10 @@
 
 <form class="w-full  bg-white fixed bottom-0 left-0 flex justify-center">
     <div class="w-full max-w-[1440px] h-full flex justify-between items-center gap-8 p-4">
-        <div class="text-3xl">asd</div>
+        <div class="text-3xl">
+            <h1 class="text-3xl">상담전화</h1>
+            <p class="text-[#5879E2] font-bold">010-3139-5269</p>
+        </div>
         <div class="flex items-center gap-3">
             <div class="flex items-center gap-2">
                 <!-- <div>이름 : </div> -->
@@ -36,7 +39,7 @@
                 <input type="checkbox">
                 <p>개인정보 수집에 동의합니다.</p>
             </div>
-            <button class="p-2  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
+            <button class="p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
         </div>
 
         <a href="#" class=" duration-75 flex-col items-center"><i class="fa-solid fa-chevron-up text-3xl leading-none text-[#777777]"></i>
