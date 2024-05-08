@@ -1,6 +1,6 @@
 <script src="./js/pushQ.js"></script>
 
-<form class="w-full  bg-white fixed bottom-0 left-0 flex justify-center shadow-[0_-2px_3px_0px_rgba(0,0,0,0.05)]">
+<form class="w-full z-[100]  bg-white fixed bottom-0 left-0 flex justify-center shadow-[0_-2px_3px_0px_rgba(0,0,0,0.05)]">
     <div class="w-full max-w-[1440px] h-full flex justify-between items-center gap-8 p-4">
         <div class="text-3xl">
             <h1 class="text-3xl">상담전화</h1>
