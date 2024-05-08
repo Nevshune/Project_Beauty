@@ -20,9 +20,7 @@ $nav3 = "영진3";
 
 <?php include './section_mainpage.php'; ?>
 
-
-
-<img src="./Admin/uploads/<?php echo $row["classThumbnail"] ?>" alt="">
+<?php include './section_classCategory.php' ?>
 
 <div class=" text-5xl ">가나다라마바사</div>
 <div class=" text-5xl font-bold">솔직히 이 폰트 진짜 괜찮은듯</div>
