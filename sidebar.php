@@ -1,4 +1,4 @@
-<aside id="sidebar" class="fixed z-20 top-0 right-8 h-screen flex flex-col justify-center items-end space-y-4 opacity-0 invisible transition-all duration-1000">
+<aside id="sidebar" class="fixed z-[100] top-0 right-8 h-screen flex flex-col justify-center items-end space-y-4 opacity-0 invisible transition-all duration-1000 max-[500px]:hidden">
     <a href="#" class="w-[48px] hover:w-[200px] h-[48px] rounded-full border-2 border-gray-300 bg-gray-100 flex items-center justify-between overflow-hidden duration-500">
         <img src="./src/icon/user_icon.jpg" alt="" class="w-[48px]">
         <div class="w-[152px] flex justify-center">
