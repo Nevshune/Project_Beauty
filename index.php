@@ -26,12 +26,11 @@ $nav3 = "영진3";
 <div class=" text-5xl font-bold">솔직히 이 폰트 진짜 괜찮은듯</div>
 
 
-<!-- 지도 -->
-<div id="map" class="w-full h-[550px] max-[500px]:h-[400px] "></div>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=55022bcd2525beeddd280db1f43f0dbd"></script>
-<script src="./js/kakaoMap.js"></script>
-<!-- 지도 end -->
+<?php include './section_map.php' ?>
 
+<div class="text-[Noto-Sans-KR] py-6">
+    TEST US
+</div>
 
 <div class="w-full h-[2000px]">
 </div>
