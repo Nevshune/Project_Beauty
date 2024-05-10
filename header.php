@@ -22,20 +22,18 @@
     }
   </script>
   <style type="text/tailwindcss">
-    @layer utilities {
-      .content-auto {
-        content-visibility: auto;
-      }
-    }
-
     /* 웹폰트 */
-    @font-face {
+  @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+  }  
   </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
   <!-- Tailwind end -->
 
   <style>
@@ -48,4 +46,4 @@
 
 </head>
 
-<body class=" relative transition-all duration-100 font-[GmarketSansMedium]">
+<body class=" relative transition-all duration-100  font-[GmarketSansMedium] min-w-[370px]">
