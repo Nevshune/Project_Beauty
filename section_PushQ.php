@@ -92,8 +92,8 @@
       </div>
 
       <div class="flex items-center text-nowrap">
-        <input id="checkbooxp" class="border-none" type="checkbox" id="consentCheckbox">
-        <label for="checkbooxp" class="ps-2">개인정보 수집에 동의합니다.</label>
+        <input  class="border-none" type="checkbox" id="consentCheckbox">
+        <label for="consentCheckbox" class="ps-2">개인정보 수집에 동의합니다.</label>
       </div>
       <button class="mt-3 p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="mainsendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
     </form>
