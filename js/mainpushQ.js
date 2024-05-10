@@ -36,11 +36,15 @@ function mainsendPushRequest() {
     // 이메일 주소와 도메인 합치기
   var emailInput = document.querySelector('input[name="이메일"]');
   var domainSelect = document.querySelector('select[name="도메인"]');
+  if(domainSelect.value == ''){
+    var email = emailInput.value.trim()
+    inputs["이메일"] = email;
+  }else{
   var email = emailInput.value.trim() + "@" + domainSelect.value.trim();
 
   // inputs 객체에 이메일 값 추가
   inputs["이메일"] = email;
-
+  }
 
   var jsonBody = JSON.stringify(inputs);
 
