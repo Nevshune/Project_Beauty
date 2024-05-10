@@ -24,8 +24,8 @@ $nav3 = "영진3";
 
 <div class=" text-5xl ">가나다라마바사</div>
 <div class=" text-5xl font-bold">솔직히 이 폰트 진짜 괜찮은듯</div>
-
-
+<!-- 메인푸시큐 -->
+<?php include './section_PushQ.php'; ?>
 <!-- 지도 -->
 <div id="map" class="w-full h-[550px] max-[500px]:h-[400px] "></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=55022bcd2525beeddd280db1f43f0dbd"></script>

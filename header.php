@@ -38,6 +38,13 @@
   </style>
   <!-- Tailwind end -->
 
+  <style>
+  /* select 요소의 옵션에 round 클래스 제거 */
+  select option {
+    border-radius: 0 !important; /* 테두리의 모서리를 제거합니다. */
+  }
+</style>
+
 
 </head>
 
