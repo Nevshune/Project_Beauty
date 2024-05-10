@@ -1,7 +1,8 @@
-function sendPushRequest() {
+
+function mainsendPushRequest() {
   
   // 입력된 값 확인
-  var inputsElements = document.querySelectorAll(".input_1");
+  var inputsElements = document.querySelectorAll(".input_2");
   var inputs = {};
   var isEmpty = false;
 
@@ -25,12 +26,20 @@ function sendPushRequest() {
     return; // 값이 비어있으면 전송 중지
   }
 
-  // 개인정보 동의 확인
-  var consentCheckbox = document.querySelector('input[type="checkbox"]');
-  if (!consentCheckbox.checked) {
-    alert("개인정보 수집에 동의해야 합니다.");
-    return;
-  }
+   // 개인정보 동의 확인
+   var consentCheckbox = document.getElementById('consentCheckbox');
+   if (!consentCheckbox.checked) {
+     alert("개인정보 수집에 동의해야 합니다.");
+     return;
+   }
+
+    // 이메일 주소와 도메인 합치기
+  var emailInput = document.querySelector('input[name="이메일"]');
+  var domainSelect = document.querySelector('select[name="도메인"]');
+  var email = emailInput.value.trim() + "@" + domainSelect.value.trim();
+
+  // inputs 객체에 이메일 값 추가
+  inputs["이메일"] = email;
 
 
   var jsonBody = JSON.stringify(inputs);

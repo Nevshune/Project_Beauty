@@ -37,20 +37,21 @@
                     </select>
                 </div>
             </div>
-            <div class=" flex max-[1430px]:flex-col max-[700px]:flex-row  justify-center items-center   gap-2">
+            <div class=" flex max-[1430px]:flex-col max-[700px]:flex-row max-[400px]:flex-col justify-center items-center   gap-2">
                 <div class="flex items-center text-nowrap">
                     <input type="checkbox">
-                    <p>개인정보 수집에 동의합니다.</p>
+                    <p class="ps-1">개인정보 수집에 동의합니다.</p>
                 </div>
                 <button class="p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
             </div>
         </div>
-        <a href="#" class="max-[700px]:hidden duration-75 flex-col items-center "><i class="fa-solid fa-chevron-up text-3xl leading-none text-[#777777]"></i>
+        <a href="#" class="max-[700px]:hidden duration-75 flex-col items-center  "><i class="fa-solid fa-chevron-up ps-[5px] text-3xl leading-none text-[#777777]"></i>
             <p class="text-lg leading-none text-[#5879E2]">TOP</p>
         </a>
 
     </div>
-    <a href="#" class="min-[700px]:hidden absolute right-8 bottom-40 w-[50px] h-[50px] duration-75 flex-col items-center justify-center rounded-full bg-gradient-to-r from-[#8273F6] to-[#1651E8] text-center "><i class=" fa-solid fa-chevron-up text-xl leading-none text-white"></i>
+    <a href="#" class="min-[700px]:hidden absolute right-8 bottom-40 max-[400px]:bottom-48 w-[50px] h-[50px] duration-75 flex-col items-center 
+    justify-center rounded-full bg-gradient-to-r from-[#8273F6] to-[#1651E8] text-center "><i class=" fa-solid fa-chevron-up text-xl leading-none text-white"></i>
             <p class="text-sm leading-none text-white">TOP</p>
         </a>
 </form>

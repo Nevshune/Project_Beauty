@@ -25,8 +25,13 @@ $nav3 = "영진3";
 <div class=" text-5xl ">가나다라마바사</div>
 <div class=" text-5xl font-bold">솔직히 이 폰트 진짜 괜찮은듯</div>
 
+<!-- 메인푸시큐 -->
+<?php include './section_PushQ.php'; ?>
+
+
 
 <?php include './section_map.php' ?>
+
 
 <div class="text-[Noto-Sans-KR] py-6">
     TEST US
