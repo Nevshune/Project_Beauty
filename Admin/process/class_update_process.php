@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $newFileName = md5(time() . $fileName) . '.' . $fileExtension;
 
         // 파일 업로드 디렉토리
-        $uploadPath = '../uploads/' . $newFileName;
+        $uploadPath = '../uploads/class/' . $newFileName;
 
         // 파일 이동
         if (move_uploaded_file($fileTmpPath, $uploadPath)) {

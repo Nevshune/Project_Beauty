@@ -26,7 +26,7 @@ $contestExpose = isset($_POST['contestExpose']) ? 1 : 0; // 체크박스가 체�
 if ($_FILES['contestImg']['name'] != "") {
     $contestImg = $_FILES['contestImg']['name']; // 업로드된 파일명
     $tempName = $_FILES['contestImg']['tmp_name']; // 임시 파일 경로
-    $uploadPath = "../uploads/" . $contestImg; // 업로드될 파일 경로
+    $uploadPath = "../uploads/contest/" . $contestImg; // 업로드될 파일 경로
 
     // 이미지를 서버에 저장
     if (!move_uploaded_file($tempName, $uploadPath)) {
