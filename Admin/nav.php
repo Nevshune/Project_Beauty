@@ -4,6 +4,7 @@
       <div class="flex gap-8 text-2xl text-white ">
         <a href="./index.php" class="font-bold">강의 목록</a>
         <a href="./contest.php" class="font-bold">대회 목록</a>
+        <a href="./popup.php" class="font-bold">팝업 관리</a>
       </div>
       <a href="./process/logout.php" class="text-white font-bold bg-blue-600 rounded-md p-2">Logout</a>
     </div>

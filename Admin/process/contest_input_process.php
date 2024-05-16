@@ -48,12 +48,12 @@ $stmt->bind_param("sssi", $contestName, $contestSub, $contestImg, $contestExpose
 
 if ($stmt->execute()) {
     echo "<script>
-            alert('강의가 성공적으로 등록되었습니다.');
+            alert('이미지가 성공적으로 등록되었습니다.');
             window.location.href = '../contest.php'; // 등록 완료 후 이동할 페이지
           </script>";
 } else {
     echo "<script>
-            alert('강의 등록에 실패했습니다.');
+            alert('이미지 등록에 실패했습니다.');
             self.location.reload(); // 실패 시 이동할 페이지
           </script>";
 }
