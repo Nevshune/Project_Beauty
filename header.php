@@ -7,6 +7,11 @@
   <title><?php echo $title; ?></title>
   <!-- 폰트어썸 -->
   <script src="https://kit.fontawesome.com/1821147619.js" crossorigin="anonymous"></script>
+  <!-- sweet Alert -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js"></script>
+
+
 
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
@@ -44,11 +49,12 @@
   <!-- Tailwind end -->
 
   <style>
-  /* select 요소의 옵션에 round 클래스 제거 */
-  select option {
-    border-radius: 0 !important; /* 테두리의 모서리를 제거합니다. */
-  }
-</style>
+    /* select 요소의 옵션에 round 클래스 제거 */
+    select option {
+      border-radius: 0 !important;
+      /* 테두리의 모서리를 제거합니다. */
+    }
+  </style>
 
 
 </head>
