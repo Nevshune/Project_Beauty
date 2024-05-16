@@ -7,18 +7,18 @@
             <p class="text-[#5879E2] font-bold text-nowrap">010-3139-5269</p>
         </div>
         <div class="flex justify-between items-center max-[700px]:flex-col  max-[1120px]:justify-between w-full gap-3">
-            <div class="flex gap-2  max-[1120px]:w-[90%]">
-                <div class="flex items-center gap-2">
+            <div class="flex gap-2  max-[1120px]:w-[90%] max-[700px]:w-full">
+                <div class="flex items-center gap-2 max-[700px]:w-[25%]">
                     <!-- <div>이름 : </div> -->
-                    <input class="input_1 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full" name="이름" rows="4" cols="50" placeholder="성함" required></input>
+                    <input class="input_1 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full max-[400px]:text-xs " name="이름" rows="4" cols="50" placeholder="성함" required></input>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 max-[700px]:w-[39%]">
                     <!-- <div>나이 : </div> -->
-                    <input class="input_1 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full" name="연락처" rows="4" cols="50" placeholder="연락처" required></input>
+                    <input class="input_1 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full max-[400px]:text-xs" name="연락처" rows="4" cols="50" placeholder="연락처" required></input>
                 </div>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-2 max-[700px]:w-[36%]">
                     <!-- <div>전화번호 : </div> -->
-                    <select class="input_1 text-gray-400 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full " name="교육과정" placeholder="교육과정" required>
+                    <select class="input_1 text-gray-400 border-[#cccccc] placeholder-slate-400 max-[1120px]:w-full max-[400px]:text-xs " name="교육과정" placeholder="교육과정" required>
                         <option class="text-[#cccccc]" value="">교육과정 선택</option>
                         <?php
                         // class_list 테이블에서 classExpose가 1인 데이터 조회                    
@@ -39,8 +39,8 @@
             </div>
             <div class=" flex max-[1430px]:flex-col max-[700px]:flex-row max-[400px]:flex-col justify-center items-center   gap-2">
                 <div class="flex items-center text-nowrap">
-                    <input type="checkbox">
-                    <p class="ps-1">개인정보 수집에 동의합니다.</p>
+                    <input type="checkbox" id="chk">
+                    <label for="chk" class="ps-1">개인정보 수집에 동의합니다.</label>
                 </div>
                 <button class="p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
             </div>
