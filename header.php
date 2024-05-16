@@ -29,6 +29,13 @@
     font-weight: normal;
     font-style: normal;
   }  
+
+  @font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   </style>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
