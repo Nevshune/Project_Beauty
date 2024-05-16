@@ -13,9 +13,7 @@
 
 
 
-  <!-- sweet alert -->
-  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  
 
 <!-- aos -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
