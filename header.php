@@ -13,6 +13,17 @@
 
 
 
+  <!-- sweet alert -->
+  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+<!-- aos -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<!-- aos js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <script>

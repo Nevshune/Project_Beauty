@@ -1,11 +1,11 @@
-<div class="w-full bg-blue-100 flex flex-col items-center justify-center py-[24px]">
+<div class="w-full bg-blue-100 flex flex-col items-center justify-center py-[24px]" >
     <div>
         <h2 class="text-4xl max-[960px]:text-3xl max-[500px]:text-2xl font-bold py-4">차별화된 전문프로그램</h2>
     </div>
     <div id="toggleContainer" class="w-[960px] max-w-[1024px] h-[600px] max-[600px]:h-[860px] max-[960px]:h-[750px] grid grid-cols-4 grid-rows-2 gap-[10px] 
                 max-[960px]:w-[600px] max-[960px]:grid-cols-3 max-[960px]:grid-rows-3
                 max-[600px]:max-w-[350px] max-[600px]:grid-cols-2 max-[600px]:grid-rows-4">
-        <div onclick="toggleHeight('item1' , 'item_b_1')" class="toggleItem group items-center rounded-[20px] overflow-hidden border-gray-800 relative bg-[url('./src/sample/img_sample_(2).png')] bg-center bg-cover">
+        <div data-aos="fade-down" onclick="toggleHeight('item1' , 'item_b_1')" class="toggleItem group items-center rounded-[20px] overflow-hidden border-gray-800 relative bg-[url('./src/sample/img_sample_(2).png')] bg-center bg-cover">
             <div id="item1" class="absolute w-[100%] h-[100%] bottom-[0%] min-[960px]:group-hover:opacity-[0%] transition-all duration-200  overflow-hidden">
                 <div class=" absolute bottom-0 w-full h-12 bg-black text-white flex items-center justify-center">
                     미용 뷰티
@@ -110,6 +110,11 @@
         element_b.classList.toggle('bg-white');
         element_b.classList.toggle('bg-white/60');
     }
+</script>
+<script>
+    $(function () {
+        AOS.init();
+    })
 </script>
 
 <!-- <script>
