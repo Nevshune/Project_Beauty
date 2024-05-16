@@ -75,7 +75,7 @@ $result = $conn->query($sql);
                 </div>
 
                 <div class="w-[20%] h-[90%] flex justify-center items-center border-r-[1px] border-gray-200 overflow-hidden ">
-                    <img class="h-[200px] w-[200px] object-cover" src="./uploads/<?php echo $row['classThumbnail'] ?>"
+                    <img class="h-[200px] w-[200px] object-cover" src="./uploads/class/<?php echo $row['classThumbnail'] ?>"
                          alt="">
                 </div>
 

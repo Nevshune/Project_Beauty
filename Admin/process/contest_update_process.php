@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // 파일명 생성 (임의의 파일명 + 확장자)
         $newFileName = md5(time() . $fileName) . '.' . $fileExtension;
         // 파일 업로드 디렉토리
-        $uploadPath = '../uploads/' . $newFileName;
+        $uploadPath = '../uploads/contest/' . $newFileName;
         // 파일 이동
         if (move_uploaded_file($fileTmpPath, $uploadPath)) {
             $contestImg = $newFileName;

@@ -21,8 +21,8 @@ if ($_FILES['classThumbnail']['name'] != "") {
               </script>";
         exit;
     }
-    $maxWidth = 400;
-    $maxHeight = 400;
+    $maxWidth = 4000;
+    $maxHeight = 4000;
 
     // 이미지 정보 가져오기
     $imageInfo = getimagesize($_FILES['classThumbnail']['tmp_name']);
@@ -40,7 +40,7 @@ if ($_FILES['classThumbnail']['name'] != "") {
 
     $classThumbnail = $_FILES['classThumbnail']['name']; // 업로드된 파일명
     $tempName = $_FILES['classThumbnail']['tmp_name']; // 임시 파일 경로
-    $uploadPath = "../uploads/" . $classThumbnail; // 업로드될 파일 경로
+    $uploadPath = "../uploads/class/" . $classThumbnail; // 업로드될 파일 경로
 
     // 이미지를 서버에 저장
     if (!move_uploaded_file($tempName, $uploadPath)) {

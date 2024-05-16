@@ -40,7 +40,7 @@ if (!$row) {
 
         <!-- 선택된 이미지를 보여주는 부분 -->
         <div class="w-50% h-[300px] mr-4">
-          <img id="preview-image" class="h-full" src="./uploads/<?php echo $row['classThumbnail']; ?>" alt="선택된 이미지">
+          <img id="preview-image" class="h-full" src="./uploads/class/<?php echo $row['classThumbnail']; ?>" alt="선택된 이미지">
         </div>
 
         <!-- 파일 선택 버튼 -->
@@ -107,7 +107,7 @@ if (!$row) {
       if (file) {
         reader.readAsDataURL(file);
       } else {
-        preview.src = "./uploads/<?php echo $row['classThumbnail']; ?>";
+        preview.src = "./uploads/class/<?php echo $row['classThumbnail']; ?>";
       }
     }
   </script>
