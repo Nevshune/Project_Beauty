@@ -1,3 +1,5 @@
+<?php $sql = "SELECT * FROM class_list WHERE classExpose = 1"; ?>
+
 <script src="./js/pushQ.js"></script>
 
 <form class="w-full z-[200]  bg-white fixed bottom-0 left-0 flex justify-center shadow-[0_-2px_3px_0px_rgba(0,0,0,0.05)]">

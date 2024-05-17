@@ -17,7 +17,7 @@ $nav3 = "영진3";
 <?php include './nav.php'; ?>
 <?php include './quickConsult.php'; ?>
 <?php include './sidebar.php' ?>
-
+<?php include './popup.php' ?>
 <?php include './section_mainpage.php'; ?>
 
 <?php include './section_classCategory.php' ?>
@@ -41,7 +41,7 @@ $nav3 = "영진3";
 </div>
 
 <?php
-
+$sql = "SELECT * FROM class_list WHERE classExpose = 1";
 // 계정 조회
 $result = $conn->query($sql);
 
@@ -50,7 +50,7 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo "번호: " . $row["Num"] . "<br>" . " - 이름: " . $row["className"] . "<br>" . " - Sub: " . $row["classSub"] . "<br>" . "이미지 경로: " . $row["classThumbnail"] . "<br>";
 ?>
-        <img src="./Admin/uploads/<?php echo $row["classThumbnail"] ?>" alt="">
+        <img src="./Admin/uploads/class/<?php echo $row["classThumbnail"] ?>" alt="">
 <?php
     }
 } else {

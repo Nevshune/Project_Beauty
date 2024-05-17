@@ -32,7 +32,7 @@ if (!$row) {
       </div>
       <div class="w-full h-60 flex items-center">
         <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">링크 주소</div>
-        <textarea name="popup_Link" class="w-[75%] h-[90%]" required><?php echo $row['popup_Link']; ?></textarea>
+        <textarea name="popup_Link" class="w-[75%] h-[90%]" placeholder="http:// 포함, 링크없을시 공백"><?php echo $row['popup_Link']; ?></textarea>
       </div>
       <div class="w-full h-full flex items-center border-b-2 border-white">
         <div class="w-[20%] h-[300px] flex justify-center items-center bg-gray-200 mr-4">이미지</div>
