@@ -7,7 +7,7 @@
                 max-[600px]:max-w-[350px] max-[600px]:grid-cols-2 max-[600px]:grid-rows-4">
         <div data-aos="fade-down" onclick="toggleHeight('item1' , 'item_b_1')" class="toggleItem group items-center rounded-[20px] overflow-hidden border-gray-800 relative bg-[url('./src/sample/img_sample_(2).png')] bg-center bg-cover">
             <div id="item1" class="absolute w-[100%] h-[100%] bottom-[0%] min-[960px]:group-hover:opacity-[0%] transition-all duration-200  overflow-hidden">
-                <div class=" absolute bottom-0 w-full h-12 bg-black text-white flex items-center justify-center">
+                <div class=" absolute bottom-[50%] w-full h-12 bg-black text-white flex items-center justify-center">
                     미용 뷰티
                 </div>
             </div>
