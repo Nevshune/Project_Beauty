@@ -1,3 +1,4 @@
+<?php $sql = "SELECT * FROM class_list WHERE classExpose = 1"; ?>
 <script src="./js/mainpushQ.js"></script>
 
 <div class="w-full bg-[#F2EDF9] pt-24 pb-32">
