@@ -52,8 +52,8 @@
         </a>
 
     </div>
-    <a href="#" class="min-[700px]:hidden absolute right-8 bottom-40 max-[400px]:bottom-48 w-[50px] h-[50px] duration-75 flex-col items-center 
+    <a href="#" class="min-[700px]:hidden max-[400px]:hidden absolute right-8 bottom-40 max-[400px]:bottom-48 w-[50px] h-[50px] duration-75 flex-col items-center 
     justify-center rounded-full bg-gradient-to-r from-[#8273F6] to-[#1651E8] text-center "><i class=" fa-solid fa-chevron-up text-xl leading-none text-white"></i>
-            <p class="text-sm leading-none text-white">TOP</p>
-        </a>
+        <p class="text-sm leading-none text-white">TOP</p>
+    </a>
 </form>
