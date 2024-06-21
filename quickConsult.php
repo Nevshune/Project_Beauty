@@ -44,7 +44,7 @@
                     <input type="checkbox" id="chk">
                     <label for="chk" class="ps-1">개인정보 수집에 동의합니다.</label>
                 </div>
-                <button class="p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
+                <button class="p-2  bg-gradient-to-r bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="sendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
             </div>
         </div>
         <a href="#" class="max-[700px]:hidden duration-75 flex-col items-center  "><i class="fa-solid fa-chevron-up ps-[5px] text-3xl leading-none text-[#777777]"></i>
