@@ -1,24 +1,39 @@
 <?php $sql = "SELECT * FROM class_list WHERE classExpose = 1"; ?>
 <script src="./js/mainpushQ.js"></script>
 
-<div class="w-full bg-[#F2EDF9] pt-24 pb-32">
+<div class="w-full  pt-32 pb-32" id="pushq">
   <div class="w-[91%] max-w-[1440px] m-auto text-center">
-    <h1 class="font-extrabold text-7xl text-[#000848] m-auto pb-16 max-[740px]:text-5xl max-[500px]:text-4xl max-[370px]:text-3xl">신입생 입학 상담신청</h1>
+    <h1 class="font-extrabold text-7xl text-[#000848] m-auto pb-16 max-[740px]:text-5xl max-[500px]:text-4xl max-[370px]:text-3xl">상담 문의</h1>
     <form class="w-[80%] m-auto max-[500px]:w-[91%]" action="">
-      <div class="flex justify-between gap-2 max-[500px]:flex-col">
-        <div class="w-[48%] text-start  max-[500px]:w-full">
-          <div>교육대상 : </div>
-          <select class="input_2 w-full text-gray-400 border-[#D9D9D9] placeholder-slate-400 first:rounded-none " name="교육대상" placeholder="문의내용" required>
-            <option class="text-[#cccccc] " value="">일반과정</option>
-            <option class="text-[#cccccc] " value="구직자취업과정(국비지원)">구직자취업과정(국비지원)</option>
-            <option class="text-[#cccccc]" value="재직자능력향상과정(국비지원)">재직자능력향상과정(국비지원)</option>
-            <option class="text-[#cccccc]" value="국가기간전략산업직종훈련정(국비지원)">국가기간전략산업직종훈련정(국비지원)</option>
-          </select>
+      <div class="flex justify-between gap-2 mt-4 max-[500px]:flex-col">
+        <div class="w-[48%] text-start max-[500px]:w-full">
+          <div>이름 : </div>
+          <input class="input_2 w-full border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full placeholder:text-sm" name="이름" rows="4" cols="50" placeholder="이름" required></input>
         </div>
-        <div class="w-[48%] text-start gap-2 max-[500px]:w-full">
+        <div class="w-[48%] text-start max-[500px]:w-full">
+          <div>휴대전화 : </div>
+          <input class="input_2 w-full border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full placeholder:text-sm" name="휴대전화" rows="4" cols="50" placeholder="휴대전화" required></input>
+        </div>
+      </div>
+      <div class="flex justify-between gap-2 max-[740px]:flex-col mt-4">
+        <div class="w-[48%] text-start max-[740px]:w-full">
+          <div>이메일 : </div>
+          <div class="flex items-center">
+            <input class="input_2 w-[45%] max-[740px]:w-[47%] border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full placeholder:text-sm" name="이메일" rows="4" cols="50" placeholder="이메일" required>
+            <span class="px-3">@</span>
+            </input>
+            <select class=" w-[48%] text-gray-400 border-[#D9D9D9] placeholder-slate-400 first:rounded-none  placeholder:text-sm" name="도메인" required>
+              <option class="text-[#cccccc] " value="">직접입력</option>
+              <option class="text-[#cccccc] " value="naver.com">naver.com</option>
+              <option class="text-[#cccccc]" value="gmail.com">gmail.com</option>
+              <option class="text-[#cccccc]" value="daum.net">daum.net</option>
+            </select>
+          </div>
+        </div>
+        <div class="w-[48%] text-start gap-2 max-[740px]:w-full">
           <div>희망과정 : </div>
-          <select class="input_2 w-full text-gray-400 border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full " name="희망과정" placeholder="교육과정" required>
-            <option class="text-[#cccccc]" value="">교육과정 선택</option>
+          <select class="input_2 w-full text-gray-400 border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full  placeholder:text-sm" name="희망과정" placeholder="교육과정" required>
+            <option class="text-[#cccccc] text-sm placeholder:text-sm " value="">교육과정 선택</option>
             <?php
             // class_list 테이블에서 classExpose가 1인 데이터 조회                    
             $result = $conn->query($sql);
@@ -27,7 +42,7 @@
               // 결과 출력
               while ($row = $result->fetch_assoc()) {
                 // 옵션에 각 과정의 className을 넣음
-                echo "<option value='" . $row["className"] . "'>" . $row["className"] . "</option>";
+                echo "<option  value='" . $row["className"] . "'>" . $row["className"] . "</option>";
               }
             } else {
               echo "<option disabled>조회된 강의가 없습니다.</option>";
@@ -37,33 +52,9 @@
         </div>
       </div>
 
-      <div class="flex justify-between gap-2 mt-4 max-[500px]:flex-col">
-        <div class="w-[48%] text-start max-[500px]:w-full">
-          <div>이름 : </div>
-          <input class="input_2 w-full border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full" name="이름" rows="4" cols="50" placeholder="이름" required></input>
-        </div>
-        <div class="w-[48%] text-start max-[500px]:w-full">
-          <div>휴대전화 : </div>
-          <input class="input_2 w-full border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full" name="휴대전화" rows="4" cols="50" placeholder="휴대전화" required></input>
-        </div>
-      </div>
 
-      <div class=" mt-4">
-        <div class="w-[48%] text-start max-[740px]:w-full">
-          <div>이메일 : </div>
-          <div class="flex items-center">
-            <input class="input_2 w-[45%] max-[740px]:w-[47%] border-[#D9D9D9] placeholder-slate-400 max-[1120px]:w-full" name="이메일" rows="4" cols="50" placeholder="이메일" required>
-            <span class="px-3">@</span>
-            </input>
-            <select class=" w-[48%] text-gray-400 border-[#D9D9D9] placeholder-slate-400 first:rounded-none " name="도메인" required>
-              <option class="text-[#cccccc] " value="">직접입력</option>
-              <option class="text-[#cccccc] " value="naver.com">naver.com</option>
-              <option class="text-[#cccccc]" value="gmail.com">gmail.com</option>
-              <option class="text-[#cccccc]" value="daum.net">daum.net</option>
-            </select>
-          </div>
-        </div>
-      </div>
+
+      
 
       <div class="mt-4">
         <div class="w-full text-start">
@@ -93,10 +84,10 @@
       </div>
 
       <div class="flex items-center text-nowrap">
-        <input  class="border-none" type="checkbox" id="consentCheckbox">
+        <input class="border-[#D9D9D9]" type="checkbox" id="consentCheckbox">
         <label for="consentCheckbox" class="ps-2">개인정보 수집에 동의합니다.</label>
       </div>
-      <button class="mt-3 p-2  bg-gradient-to-r from-[#8273F6] to-[#1651E8] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="mainsendPushRequest()">빠른상담</button> <!-- type="button" 추가 -->
+      <button class="mt-3 p-2  bg-gradient-to-r bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white" type="button" onclick="mainsendPushRequest()">상담신청</button> <!-- type="button" 추가 -->
     </form>
   </div>
 </div>

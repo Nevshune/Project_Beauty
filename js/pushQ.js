@@ -28,13 +28,13 @@ function sendPushRequest() {
   // 개인정보 동의 확인
   var consentCheckbox = document.querySelector('input[type="checkbox"]');
   if (!consentCheckbox.checked) {
-    consentCheckbox.focus();
     Swal.fire({
       // title: 'Error!',
       html: '개인정보 수집에 동의해야 합니다!',
       icon: 'warning',
       confirmButtonText: '확인'
     });
+    consentCheckbox.focus();
     return;
   }
 

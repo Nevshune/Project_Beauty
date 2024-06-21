@@ -30,7 +30,7 @@ function mainsendPushRequest() {
   var consentCheckbox = document.getElementById('consentCheckbox');
   if (!consentCheckbox.checked) {
     consentCheckbox.focus();
-    alert("개인정보 수집에 동의해야 합니다.");
+    // alert("개인정보 수집에 동의해야 합니다.");
     Swal.fire({
       // title: 'Error!',
       html: '개인정보 수집에 동의해야 합니다!',

@@ -1,11 +1,12 @@
 <nav class="w-full fixed bg-white shadow-md flex justify-center z-[200] transition-all duration-500">
-    <div class="w-full max-w-[1440px] min-[500px]:pb-6 h-full flex max-[500px]:flex-col justify-between items-center px-8 pt-8">
+    <div class="w-full max-w-[1440px] min-[500px]:pb-6 h-full flex max-[900px]:flex-col justify-between items-center px-8 pt-8">
         <div class="text-3xl">LOGO</div>
-        <div class="flex flex-row item overflow-hidden max-[500px]:h-10 items-center gap-4  search_space transition-all duration-500 mt-4">
+        <div class="flex flex-row item overflow-hidden  items-center gap-14 max-[900px]:gap-7  search_space transition-all duration-500 mt-4 text-lg font-bold">
             <a href="#"><?php echo $nav1; ?></a>
-            <a href="#"><?php echo $nav2; ?></a>
+            <a href="#card"><?php echo $nav2; ?></a>
             <a href="#"><?php echo $nav3; ?></a>
-            <a href="#">MENU_4</a>
+            <a href="#"><?php echo $nav4; ?></a>
+            <a href="#pushq"><?php echo $nav5; ?></a>            
         </div>
     </div>
 </nav>

@@ -9,9 +9,11 @@ $title = "미용아카데미로 전화하세요를 줄이면 미아콜";
 
 
 <?php
-$nav1 = "영진";
-$nav2 = "영진2";
-$nav3 = "영진3";
+$nav1 = "모집중인과정";
+$nav2 = "국민내일배움카드";
+$nav3 = "국가자격시험";
+$nav4 = "교육과정";
+$nav5 = "상담문의";
 ?>
 
 <?php include './nav.php'; ?>
@@ -25,8 +27,9 @@ $nav3 = "영진3";
 
 <!-- 국민내일배움카드 -->
 <?php include './section_card.php'; ?>
-<!-- 아코디언 -->
-<?php include './section_accordion.php'; ?>
+<!-- 국가자격시험 -->
+<?php include './section_exam.php'; ?>
+
 <!-- 메인푸시큐 -->
 <?php include './section_PushQ.php'; ?>
 
