@@ -1,8 +1,8 @@
-<div id="class_name" class="font-black text-3xl text-[#0124A2] pb-8">
+<div id="class_name" class="font-black text-3xl text-[#0124A2] pb-8 font-[AppleSDGothicNeo] ">
     피부국가자격증과정
 </div>
 <div>
-    <div class="text-2xl font-bold">
+    <div class="text-2xl font-bold font-[AppleSDGothicNeo]">
         [강의시간]
     </div>
     <ul class="font-bold custom-list text-xl space-y-2 p-3">

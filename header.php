@@ -32,19 +32,75 @@
   </script>
   <style type="text/tailwindcss">
     /* 웹폰트 */
-  @font-face {
+    @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }  
+     }  
 
-  @font-face {
+    @font-face {
     font-family: 'NanumSquareRound';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoT.ttf') format('truetype');
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoUL.ttf') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoR.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoM.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoSB.ttf') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoB.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoEB.ttf') format('truetype');
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AppleSDGothicNeo';
+      src: url('./font/AppleSDGothicNeoH.ttf') format('truetype');
+      font-weight: 900;
+      font-style: normal;
+    }
   </style>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,4 +127,4 @@
 
 </head>
 
-<body class=" relative transition-all duration-100  font-[GmarketSansMedium] min-w-[370px]">
+<body class=" relative transition-all duration-100 font-[AppleSDGothicNeo] min-w-[370px]">
