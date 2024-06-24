@@ -6,28 +6,28 @@
 <div class="w-full">
     <div id="grid_container" class="flex flex-col group h-[412px] transition-all duration-[800ms]">
         <div id="grid_row_1" class="grid-row h-[50%] flex transition-all duration-[800ms]">
-            <div id="grid_col_1" class="relative grid-col bg-[url('./src/sample/img_sample_(1).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="피부국가자격증과정.php">
+            <div id="grid_col_1" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_1.png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="피부국가자격증과정.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">피부</span><span class="block">국가자격증</span><span class="block">과정</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_2" class="relative grid-col bg-[url('./src/sample/img_sample_(2).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="페이스실무살롱테크닉.php">
+            <div id="grid_col_2" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_2.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="페이스실무살롱테크닉.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">페이스실무</span><span class="block">살롱테크닉</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_3" class="relative grid-col bg-[url('./src/sample/img_sample_(3).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="얼굴윤곽축소테크닉.php">
+            <div id="grid_col_3" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_3.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="얼굴윤곽축소테크닉.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">얼굴윤곽</span><span class="block">축소테크닉</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_4" class="relative grid-col bg-[url('./src/sample/img_sample_(4).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="전신살롱테크닉.php">
+            <div id="grid_col_4" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_4.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="전신살롱테크닉.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">전신</span><span class="block">살롱테크닉</span>
@@ -36,28 +36,28 @@
             </div>
         </div>
         <div id="grid_row_2" class="grid-row h-[50%] flex transition-all duration-[800ms]">
-            <div id="grid_col_5" class="relative grid-col bg-[url('./src/sample/img_sample_(5).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="아로마풋케어.php">
+            <div id="grid_col_5" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_5.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="아로마풋케어.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">아로마</span><span class="block">풋케어</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_6" class="relative grid-col bg-[url('./src/sample/img_sample_(6).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="왁싱스페셜과정.php">
+            <div id="grid_col_6" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_6.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="왁싱스페셜과정.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">왁싱</span><span class="block">스페셜과정</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_7" class="relative grid-col bg-[url('./src/sample/img_sample_(7).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="스킨아트과정.php">
+            <div id="grid_col_7" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_7.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="스킨아트과정.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">스킨아트</span><span class="block">과정</span>
                     </div>
                 </div>
             </div>
-            <div id="grid_col_8" class="relative grid-col bg-[url('./src/sample/img_sample_(8).png')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="창업컨설팅과정.php">
+            <div id="grid_col_8" class="relative grid-col bg-[url('./src/img/curriculum/curroculum_S_8.jpg')] bg-cover bg-center w-[25%] transition-all duration-[800ms]" data-content="창업컨설팅과정.php">
                 <div class="absolute w-full py-2 bottom-0 bg-black/70 flex items-center justify-center transition-all duration-[800ms]">
                     <div class="w-full text-white flex flex-wrap justify-center items-center transition-all duration-[800ms]">
                         <span class="block">창업컨설팅</span><span class="block">과정</span>
@@ -70,7 +70,7 @@
 
 <div id="class_contents" class="w-full max-w-[1080px] flex flex-col px-4 pt-8">
     <!-- PHP 파일의 내용을 이 div에 로드 -->
-     <?php include './classList/아로마풋케어.php' ?>
+     <?php include './classList/피부국가자격증과정.php' ?>
 </div>
 
 <style>
