@@ -33,7 +33,7 @@
                                 echo "<option value='" . $row["className"] . "'>" . $row["className"] . "</option>";
                             }
                         } else {
-                            echo "<option disabled>조회된 강의가 없습니다.</option>";
+                            echo "<option value='조회된강의가 없음' >조회된 강의가 없습니다.</option>";
                         }
                         ?>
                     </select>
