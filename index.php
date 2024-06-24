@@ -1,5 +1,6 @@
 <?php include './Admin/inc/dbconfig.php';
 $sql = "SELECT * FROM class_list WHERE classExpose = 1";
+$result = $conn->query($sql);
 ?>
 <?php
 $title = "미용아카데미로 전화하세요를 줄이면 미아콜";
@@ -24,6 +25,17 @@ $nav5 = "상담문의";
 <?php include './section_mainpage.php'; ?>
 
 
+<!-- 모집과정 -->
+<?php
+// 조건에 맞는 행이 있는지 확인
+if ($result->num_rows > 0) {
+    include './section_advertisement.php';
+} else {
+    echo "<div></div>";
+}
+
+
+?>
 
 <!-- 국민내일배움카드 -->
 <?php include './section_card.php'; ?>
