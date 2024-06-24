@@ -1,5 +1,5 @@
-<section class="w-full flex flex-col justify-center items-center px-4 py-24">
-    <div class="w-full max-w-[1280px] flex flex-col justify-center items-center space-y-8">
+<section class="w-full flex flex-col justify-center items-center  py-24 bg-[#eeeeee]">
+    <div class="w-full max-w-[1280px] flex flex-col justify-center px-4 items-center space-y-8">
         <div class="font-black text-4xl">
             교육과정
         </div>
@@ -12,9 +12,10 @@
     <div class="w-full max-w-[1080px] flex flex-col justify-center items-center py-28">
 
         <!-- 교육과정 국비-->
-        <?php include './section_curriculum_G.php' ?>
+        <div class="px-4"></div><?php include './section_curriculum_G.php' ?>
         <!-- 교육과정 단기 -->
-        <?php include './section_curriculum_S.php' ?>
+        <div class="max-[767.5px]:hidden w-full px-4"><?php include './section_curriculum_S.php' ?></div>
+        <div class="min-[767.5px]:hidden w-full"><?php include './section_curriculum_S_mobile.php' ?></div>
 
     </div>
 
