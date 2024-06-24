@@ -30,6 +30,8 @@ $nav3 = "영진3";
 <!-- 메인푸시큐 -->
 <?php include './section_PushQ.php'; ?>
 
+<!-- 교육과정 -->
+<?php include './section_curriculum.php' ?>
 
 
 <?php include './section_map.php' ?>
