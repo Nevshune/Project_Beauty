@@ -1,9 +1,9 @@
-<div id="class_name" class="font-black text-3xl text-[#0124A2] pb-1">
+<div id="class_name" class="font-extrabold  text-5xl max-[500px]:text-4xl text-[#0124A2] pb-2 ">
     전신살롱테크닉
 </div>
-<div class="p-2 pb-8 text-[#333333]">
-    전신관리는 온몸에 고루 퍼져 있는 노폐물 배출과 경혈의 흐름에 따라 인체 내의 에너지 흐름을 원활하게 하고자 함을 목적으로 합니다. 
-    신체 라인을 보다 유연하고 아름답게 함으로써 건강상의 이로움을 얻고자 하는 매뉴얼테크닉입니다. 
+<div class="p-2 pb-8 text-xl text-[#333333] break-keep ">
+    전신관리는 온몸에 고루 퍼져 있는 노폐물 배출과 경혈의 흐름에 따라 인체 내의 에너지 흐름을 원활하게 하고자 함을 목적으로 합니다.
+    신체 라인을 보다 유연하고 아름답게 함으로써 건강상의 이로움을 얻고자 하는 매뉴얼테크닉입니다.
     전신관리 테크닉은 페이스살롱테크닉과 함께 취업이나 창업을 준비하는 분들이 주로 배우고 있습니다.
 </div>
 <div class="pb-4">
@@ -11,7 +11,7 @@
         [강의시간]
     </div>
     <ul class="font-bold custom-list text-xl space-y-2 p-3">
-        <li class="pl-6"> 8회 과정 ( 1회 수업 - 3시간 ) </li>
+        <li class="pl-6 max-[500px]:pl-3"> 8회 과정 ( 1회 수업 - 3시간 ) </li>
     </ul>
 </div>
 
@@ -19,7 +19,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정]
     </div>
-    <div class="flex flex-col pl-8 font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
         <div>O.T</div>
         <div>1. 클렌징, 해면, 온타올 실전사용법 살롱테크닉 및 월컴 두피관리 테크닉</div>
         <div>2. 등관리 테크닉</div>
@@ -33,11 +33,11 @@
 </div>
 
 <div>
-    <div class="flex items-end">
+    <div class="flex items-end pb-2">
         <img src="./src/img/QnA.svg" alt="" class="w-[90px]">
-        <div class="text-orange-400 font-bold">&nbsp;자주하는 질문</div>
+        <div class="text-orange-400 font-bold text-2xl">&nbsp;자주하는 질문</div>
     </div>
-    <ul class="custom-list_2 text-lg space-y-2 p-3 ">
+    <ul class="custom-list_2 text-xl space-y-2 p-3 ">
         <li> 과정을 이수하면 자격증이 발급되나요?
             <div class="text-[0.9em] text-[#555555] pl-5">
                 법적 효력이 있는 미용사(피부) 국가자격증을 취득후 각 과목에 대한 민간자격증(주무부처 보건복지부)이 발급됩니다. 이 자격증은 이력서 작성시 기재 가능한 본인의 스펙이 되며 창업시
@@ -58,6 +58,8 @@
         </li>
     </ul>
 </div>
+
+<div class="m-auto flex justify-center py-11"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
 
 <style>
     .custom-list {

@@ -32,11 +32,12 @@ $nav5 = "상담문의";
 <!-- 미용 국가자격시험 -->
 <?php include './section_exam_2.php'; ?>
 
+<!-- 교육과정 -->
+<?php include './section_curriculum.php' ?>
+
 <!-- 메인푸시큐 -->
 <?php include './section_PushQ.php'; ?>
 
-<!-- 교육과정 -->
-<?php include './section_curriculum.php' ?>
 
 
 <?php include './section_map.php' ?>
