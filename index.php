@@ -29,6 +29,8 @@ $nav5 = "상담문의";
 <?php include './section_card.php'; ?>
 <!-- 국가자격시험 -->
 <?php include './section_exam.php'; ?>
+<!-- 미용 국가자격시험 -->
+<?php include './section_exam_2.php'; ?>
 
 <!-- 메인푸시큐 -->
 <?php include './section_PushQ.php'; ?>
