@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="accordion-item">
-                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_4.jpg')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
+                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_4.jpg')] bg-cover bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
                         <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-2xl">전신살롱테크닉</div>
                     </button>
                     <div class="accordion-content max-h-0 flex flex-col text-[0.9em] text-[#777777]">
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="accordion-item">
-                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_5.jpg')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
+                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_5.jpg')] bg-cover bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
                         <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-2xl">아로마풋케어</div>
                     </button>
                     <div class="accordion-content max-h-0 flex flex-col text-[0.9em] text-[#777777]">
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="accordion-item">
-                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_8.jpg')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
+                    <button class="accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_S_8.jpg')] bg-cover bg-[top_center] h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
                         <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-2xl">창업컨설팅과정</div>
                     </button>
                     <div class="accordion-content max-h-0 flex flex-col text-[0.9em] text-[#777777]">
