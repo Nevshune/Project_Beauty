@@ -1,20 +1,24 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>SweetAlert</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-</head>
-<body>
-    <button onclick="normal()">Normal Alert</button>
-    <button onclick="sweet()">Sweet Alert</button>
+<?php include './header.php' ?>
  
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-<script type="text/javascript">
-    function sweet() {
-        swal("Good job!", "You clicked the button!", "success");
-    }
+<!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+ <div class="w-full bg-blue-200">
+<div id="daumRoughmapContainer1719303453592" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+</div>
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1719303453592",
+		"key" : "2jsso",
+		"mapWidth" : "[100%]",
+		"mapHeight" : "500"
+	}).render();
 </script>
-</body>
-</html>
+
+<?php include './footer.php' ?>
