@@ -1,27 +1,36 @@
-<section id="main_top" class="w-full h-screen bg-blue-200 ">
+<section id="main_top" class="w-full h-screen pt-[90px] max-[900px]:pt-[134px] max-[628px]:pt-[160px] max-[700px]:pb-[140px] pb-[100px] ">
     <!-- Slider main container -->
-    <swiper-container class="mySwiper w-full h-full " pagination="true" navigation="true" loop="true" autoplay-delay="3000">
+    <swiper-container class="mySwiper w-full h-full " pagination="true" loop="true" autoplay-delay="50000">
 
-        <swiper-slide class="h-full w-full flex justify-center items-center text-3xl relative bg-[url('./src/img/main_banner_1.png')] bg-cover bg-center">
-            <div class="w-[800px] backdrop-blur-sm border-[1px] border-white/20 shadow-sm rounded-xl max-[700px]:px-4">
-                <img src="./src/img/main_text.svg" alt="" class="w-full py-12 px-20 max-[500px]:px-5 shadow-md">
+
+        <swiper-slide class="h-full w-full flex flex-col justify-center items-center text-3xl relative bg-[url('./src/img/Top-BG/BG001.jpg')] px-4 bg-cover  bg-center space-y-24">
+            <div class="w-full max-w-[800px] bg-white/40 backdrop-blur-md border-white/50 shadow-sm rounded-3xl">
+                <img src="./src/logo/JS_Logo-mainfull.svg" alt="" class="w-full py-12 px-20 max-[500px]:px-5 shadow-md">
+            </div>
+            <div class="w-full max-w-[1440px] text-xl text-white flex flex-col items-end px-[5%] max-md:hidden">
+                <p>피부만을 위한 전문 대표원장의 지도로</p>
+                <p>최상의 교육을 통해</p>
+                <p>최단기간 <span class="text-[1.1em] font-bold">피부국가자격증 취득</span>부터</p>
+                <p>업계최고 <span class="text-[1.1em] font-bold">피부전문가를 양성</span>하는</p>
+                <p><span class="text-[1.1em] font-bold">취업, 창업에 특화된 피부전문교육 기관</span></p>
             </div>
         </swiper-slide>
 
-        <swiper-slide class="h-full w-full flex justify-center items-center text-3xl relative bg-[url('./src/img/main_banner_2.png')] bg-cover bg-start">
-            <div class="w-full max-w-[980px] flex flex-col items-center justify-center p-4 max-[700px]:space-y-8">
-                <img src="./src/img/mainbanner_2_title.svg" alt="" class="pr-12 max-[700px]:pr-0">
-                <div class="w-full flex max-[700px]:flex-col justify-center items-center pl-12 max-[700px]:pl-0">
-                    <div class=" space-y-8 max-[700px]:px-12 flex flex-col items-center">
-                        <img src="./src/img/mainbanner_2_text.svg" alt="">
-                        <img src="./src/img/mainbanner_2_call_btn.svg" alt="">
-                    </div>
-                    <div>
-                        <img src="./src/img/mainbanner_2_card_ob.png" alt="" class="max-[700px]:hidden">
-                    </div>
-                </div>
+        <swiper-slide class="h-full w-full flex flex-col justify-center items-center text-3xl relative bg-[url('./src/img/Top-BG/BG002.jpg')] px-4 bg-cover  bg-center space-y-24">
+            <div class=" absolute top-4 left-4 w-56 ">
+                <img src="./src/logo/JS_Logo-text_white.svg" alt="" class="">
             </div>
         </swiper-slide>
+
+        <swiper-slide class="h-full w-full flex flex-col justify-center items-center text-3xl relative bg-[url('./src/img/Top-BG/Top_bg.jpg')] px-4 bg-cover bg-[center] max-[580px]:bg-[center_left_-48px]">
+            <div class=" absolute top-0 left-0 w-full bg-black h-[128px] flex items-center justify-center py-2">
+                <img src="./src/logo/JS_Logo-text_white.svg" alt="" class="h-full">
+            </div>
+            <div class=" absolute bottom-0 left-0 w-full h- bg-black h-[128px] flex items-center justify-center py-4 text-white text-5xl max-[700px]:text-4xl font-extrabold">
+                국제뷰티 EXPO 기능대회
+            </div>
+        </swiper-slide>
+
 
 
     </swiper-container>

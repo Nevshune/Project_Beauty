@@ -20,7 +20,6 @@ $nav5 = "상담문의";
 <?php include './nav.php'; ?>
 <!-- 미니푸시큐 -->
 <?php include './quickConsult.php'; ?>
-<?php include './sidebar.php' ?>
 <?php include './popup.php' ?>
 <?php include './section_mainpage.php'; ?>
 
