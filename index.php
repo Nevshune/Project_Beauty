@@ -33,8 +33,8 @@ if ($result->num_rows > 0) {
     echo "<div></div>";
 }
 
-
 ?>
+
 
 <!-- 국민내일배움카드 -->
 <?php include './section_card.php'; ?>

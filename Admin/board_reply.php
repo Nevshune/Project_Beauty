@@ -27,11 +27,11 @@ if (!$row) {
     <form action="./process/class_update_process.php" method="POST" enctype="multipart/form-data" class="w-full">
       <input type="hidden" name="num" value="<?php echo $row['Num']; ?>">
       <div class="w-full h-24 flex items-center">
-        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">강의명</div>
+        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육명</div>
         <input type="text" name="className" class="w-[50%]" value="<?php echo $row['className']; ?>" required>
       </div>
       <div class="w-full h-60 flex items-center">
-        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">내용</div>
+        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육시간</div>
         <textarea name="classSub" class="w-[75%] h-[90%]" required><?php echo $row['classSub']; ?></textarea>
       </div>
       <div class="w-full h-full flex items-center border-b-2 border-white">
@@ -53,7 +53,7 @@ if (!$row) {
 
 
       <div class="w-full h-24 flex items-center">
-        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">강의 기간</div>
+        <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육 기간</div>
         <div class="flex items-center justify-center">
           <div class="px-2">시작일</div>
           <input type="date" name="classStartDate" class="px-2" value="<?php echo $row['classStartDate']; ?>" required>

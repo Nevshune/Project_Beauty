@@ -36,7 +36,7 @@
     </swiper-container>
 
     <style>
-
+        
     </style>
 
     <script>
@@ -88,6 +88,6 @@
 
         Object.assign(swiperEl, params);
 
-        swiperEl.initialize();
+        // swiperEl.initialize();
     </script>
 </section>

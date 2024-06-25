@@ -36,11 +36,11 @@ $result = $conn->query($sql);
 
     <div class="w-full h-full flex bg-cyan-800 text-white">
         <div class="w-[15%] h-12 flex justify-center items-center border-r-2 border-gray-100 font-bold">
-            <div>강의명</div>
+            <div>교육명</div>
         </div>
 
         <div class="w-[45%] h-12 flex justify-center items-center border-r-2 border-gray-100 font-bold">
-            <div>내용</div>
+            <div>교육시간</div>
         </div>
 
         <div class="w-[20%] h-12 flex justify-center items-center border-r-2 border-gray-100 font-bold">
@@ -48,7 +48,7 @@ $result = $conn->query($sql);
         </div>
 
         <div class="w-[10%] h-12 flex justify-center items-center border-r-2 border-gray-100 font-bold">
-            <div>강의 기간</div>
+            <div>교육 기간</div>
         </div>
 
         <div class="w-[5%] h-12 flex justify-center items-center font-bold border-r-2 border-gray-100">
