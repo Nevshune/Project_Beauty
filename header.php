@@ -125,6 +125,77 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
   <!-- Flowbite CDN end -->
 
+  <!-- custom list marker -->
+  <style>
+    .custom-list {
+      @apply list-none;
+      /* 기본 리스트 스타일 제거 */
+    }
+
+    .custom-list li {
+      @apply relative;
+      /* 상대 위치 설정 */
+    }
+
+    .custom-list li::before {
+      content: '■';
+      /* 커스텀 사각형 기호 */
+      color: #0124A2;
+      /* 사각형 색상 설정 */
+      @apply absolute left-0 text-lg leading-none;
+      /* Tailwind CSS 적용 */
+      transform: translateY(0.1em);
+      /* 사각형 위치 조정 */
+    }
+
+    .custom-list_2 {
+      @apply list-none;
+      /* 기본 리스트 스타일 제거 */
+    }
+
+    .custom-list_2 li {
+      @apply relative pl-6;
+      /* 상대 위치 설정 및 패딩 추가 */
+    }
+
+    .custom-list_2 li::before {
+      content: '●';
+      /* 커스텀 원형 기호 */
+      color: #999999;
+      /* 원형 색상 설정 */
+      @apply absolute left-0 text-lg leading-none;
+      /* Tailwind CSS 적용 */
+      font-size: 0.75rem;
+      /* 원형 크기 조정 */
+      transform: translateY(0.1em);
+      /* 원형 위치 조정 */
+    }
+
+    .custom-list_3 {
+      @apply list-none;
+      /* 기본 리스트 스타일 제거 */
+    }
+
+    .custom-list_3 li {
+      @apply relative pl-6;
+      /* 상대 위치 설정 및 패딩 추가 */
+    }
+
+    .custom-list_3 li::before {
+      content: '●';
+      /* 커스텀 원형 기호 */
+      color: #73AFF6;
+      /* 원형 색상 설정 */
+      @apply absolute left-0 text-lg leading-none;
+      /* Tailwind CSS 적용 */
+      font-size: 0.75rem;
+      /* 원형 크기 조정 */
+      transform: translateY(0.1em);
+      /* 원형 위치 조정 */
+    }
+  </style>
+
+
 </head>
 
 <body class=" relative transition-all duration-100 font-[AppleSDGothicNeo] min-w-[370px]">

@@ -9,7 +9,7 @@
     <div class="w-full max-w-[1440px] px-10">
         <div id="map" class="w-full h-[550px] max-[500px]:h-[400px] "></div>
         <div class="w-full flex justify-between p-1">
-            <a href="https://kko.to/chrSE_s1Q6" target="_blank" class="">
+            <a href="https://kko.to/PucY7Q6Z2Q" target="_blank" class="">
                 <div class="detail">길찾기</div>
             </a>
             <div class="font-[NanumSquareRound] text-xl">kakao<strong class="text-[1.1em] font-extrabold">map</strong></div>
@@ -17,9 +17,8 @@
     </div>
 
     <div class="w-full max-w-[1440px] py-8 px-16 max-[500px]:px-10 space-y-2">
-        <div class=" inline-block mr-6"><span class="mr-3 font-bold">주소</span><span class=" font-light">서울시 관악구 신림로 58길 13 S빌딩 302호</span></div>
-        <div class=" inline-block mr-6"><span class="mr-3 font-bold">전화</span><span class=" font-light">02-886-1305</span></div>
-        <div class=" inline-block mr-6"><span class="mr-3 font-bold">H.P</span><span class=" font-light">010-3139-5269</span></div>
+        <div class=" inline-block mr-6"><span class="mr-3 font-bold">주소</span><span class=" font-light">인천광역시 남동구 주안로 235번길 2, 2,3(간석동)</span></div>
+        <div class=" inline-block mr-6"><span class="mr-3 font-bold">전화</span><span class=" font-light">010-5171-2322</span></div>
     </div>
 </div>
 
