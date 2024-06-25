@@ -1,4 +1,4 @@
-<section class="w-full flex flex-col justify-center items-center  py-24 bg-[#eeeeee]">
+<section class="w-full flex flex-col justify-center items-center  py-24 bg-[#eeeeee]" id="curriculum">
     <div class="w-full max-w-[1280px] flex flex-col justify-center px-4 items-center space-y-8">
         <div class="font-extrabold text-7xl max-md:text-5xl">
             교육과정
