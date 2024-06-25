@@ -1,4 +1,4 @@
-<div class="w-full transition-all duration-500 " id="card">
+<div class="w-full transition-all duration-500 " id="exam">
   <div class="w-full max-w-[1440px] m-auto relative py-28 px-8 flex-col justify-center items-center">
     <div class="absolute top-8 right-0 z-[2px] max-[1130px]:hidden"><img src="./src/sample/exam_1.svg" alt=""></div>
 
