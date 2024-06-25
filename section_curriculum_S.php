@@ -70,7 +70,6 @@
 
 <div id="class_contents" class="w-full max-w-[1080px] flex flex-col px-4 pt-8">
     <!-- PHP 파일의 내용을 이 div에 로드 -->
-     <?php include './classList/피부국가자격증과정.php' ?>
 </div>
 
 <style>

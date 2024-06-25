@@ -15,7 +15,26 @@
         <div class="max-[767.5px]:hidden w-full px-4"><?php include './section_curriculum_G.php' ?></div>
         <div class="min-[767.5px]:hidden w-full px-2"><?php include './section_curriculum_G_mobile.php' ?></div>
 
-        <div class="w-full h-20"></div>
+        <div class="w-full py-20 px-4">
+            <div class="w-full rounded-xl bg-[#FFD15D] flex p-6 max-[600px]:hidden">
+                <div class="text-[80px] max-[500px]:[48px]  w-28 flex justify-center items-center font-extrabold">!</div>
+                <div class="w-full flex leading-tight flex-col justify-center break-keep text-xl max-[500px]:text-lg font-light">
+                    <p>국민내일배움카드를 수령후 수강신청과 선발을 통해 해당기간 출석률80% 이상 출석해야 수료가 가능합니다. 단, 국비 지원을 통한 교육 신청 후 미수료 또는 수강포기 시 재료비청구, 내일배움카드 지원금이 차감되거나 내일배움카드 사용에 있어 패털티가 발생될 수 있는점 참고하시기 바랍니다. </p>
+                    <p>(훈련생 유형이 다르므로 자세한 사항은 해당 고용센터에 확인하시길 바랍니다.)</p>
+                </div>
+            </div>
+
+            <div class="py-8">
+                <div class="text-4xl max-[500px]:text-3xl text-[#575757] font-extrabold ">국비지원훈련과정 수강신청방법</div>
+            </div>
+
+            <div class="flex items-center text-xl max-[500px]:text-lg">
+                <span class="text-[0.9rem] text-[#F9804C]">■</span>&nbsp; 아래 이미지에 연결된 페이지로 이동, 검색, 신청
+            </div>
+            <a href="https://www.hrd.go.kr/hrdp/ti/ptiao/PTIAO0300L.do" target="_blank">
+                <img src="./src/img/Nebeka.png" alt="" class="w-full">
+            </a>
+        </div>
         <!-- 교육과정 단기 -->
         <div class="max-[767.5px]:hidden w-full px-4"><?php include './section_curriculum_S.php' ?></div>
         <div class="min-[767.5px]:hidden w-full px-2"><?php include './section_curriculum_S_mobile.php' ?></div>
