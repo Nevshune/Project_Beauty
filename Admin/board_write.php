@@ -20,11 +20,11 @@ include './inc/dbconfig.php'
 
     <form action="./process/class_input_process.php" method="POST" enctype="multipart/form-data" class="w-full">
         <div class="w-full h-24 flex items-center">
-            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">강의명</div>
+            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육명</div>
             <input type="text" name="className" class="w-[50%]" required>
         </div>
         <div class="w-full h-60 flex items-center">
-            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">내용</div>
+            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육시간</div>
             <textarea name="classSub" class="w-[75%] h-[90%]" required></textarea>
         </div>
 
@@ -43,7 +43,7 @@ include './inc/dbconfig.php'
 
 
         <div class="w-full h-24 flex items-center">
-            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">강의 기간</div>
+            <div class="w-[20%] h-full flex justify-center items-center bg-gray-200 mr-4 border-b-2 border-white">교육 기간</div>
             <div class="flex items-center justify-center">
                 <div class="px-2">시작일</div>
                 <input type="date" name="classStartDate" class="px-2" required>
