@@ -37,6 +37,7 @@ if ($result->num_rows > 0) {
 
 ?>
 
+
 <!-- 국민내일배움카드 -->
 <?php include './section_card.php'; ?>
 <!-- 국가자격시험 -->
