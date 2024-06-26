@@ -1,6 +1,6 @@
 <section id="main_top" class="w-full h-screen pt-[90px] max-[900px]:pt-[134px] max-[628px]:pt-[160px] max-[700px]:pb-[140px] pb-[100px] ">
     <!-- Slider main container -->
-    <swiper-container class="mySwiper w-full h-full " pagination="true" loop="true" autoplay-delay="50000">
+    <swiper-container class="mySwiper w-full h-full " pagination="true" loop="true" autoplay-delay="2000">
 
 
         <swiper-slide class="h-full w-full flex flex-col justify-center items-center text-3xl relative bg-[url('./src/img/Top-BG/BG001.jpg')] px-4 bg-cover  bg-center space-y-24">
