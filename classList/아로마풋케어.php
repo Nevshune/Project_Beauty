@@ -18,7 +18,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정]
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal  space-y-1">
         <div>1. 아로마풋케어의 정의. 도구설명/고객 발 유형별 관리차트 작성요령</div>
         <div>2. 발 피부의 기능과 역할 / 도구를 이용한 발바닥·발등 피부결 정리</div>
         <div>3. 본격적인 아로마풋케어 테크닉 수업</div>

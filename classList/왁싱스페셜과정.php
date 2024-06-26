@@ -18,7 +18,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정]
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal  space-y-1">
         <div>1. 왁싱의 개요와 이론</div>
         <div>2. 부위별 왁싱(소프트) : 손, 팔, 발, 다리</div>
         <div>3. 부위별 왁싱(소프트, 하드) : 등, 전면, 가슴, 배꼽</div>

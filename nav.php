@@ -1,6 +1,6 @@
 <nav class="w-full fixed bg-white shadow-md flex justify-center z-[200] transition-all duration-500">
     <div class="w-full max-w-[1440px] min-[500px]:pb-4 h-full flex max-[900px]:flex-col justify-between items-center px-8 pt-4">
-        <div class=""><img src="./src/logo/JS_Logo-text_color.svg" alt="" class="h-[58px]"></div>
+        <a href="./index.php" class=""><img src="./src/logo/JS_Logo-text_color.svg" alt="" class="h-[58px]"></a>
         <div class="flex flex-row item overflow-hidden flex-wrap justify-center  items-center space-x-14 max-[500px]:h-20 max-[500px]:space-x-4 max-[500px]:gap-2 max-[500px]:pb-2 max-[950px]:space-x-7  search_space transition-all duration-500 mt-4 text-lg font-bold">
             <a href="#advertisement"><?php echo $nav1; ?></a>
             <a href="#card"><?php echo $nav2; ?></a>

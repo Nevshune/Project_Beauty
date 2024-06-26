@@ -6,18 +6,18 @@
 
     <div class="font-extrabold text-3xl mx-auto text-[#575757] text-center pt-3 max-[700px]:text-2xl max-[400px]:text-2xl break-keep">카드 한 장으로 시작하는 다양한 훈련, 국민내일배움카드</div>
     <div class="w-full flex justify-center items-center max-[800px]:px-8">
-      <div class="w-full max-[940px]:max-w-[640px] flex flex-wrap justify-center items-center max-[940px]:justify-start  text-2xl text-[#0075FF] gap-3 pt-16 pb-7 max-[700px]:text-xl max-[450px]:text-lg ">
-        <div class="pr-8">
+      <div class="w-full max-[940px]:max-w-[640px] flex flex-wrap justify-center items-center max-[940px]:justify-start  text-2xl text-[#0075FF] gap-3 pt-16 max-[700px]:pt-10  pb-7 max-[700px]:text-xl max-[450px]:text-lg">
+        <div class="pr-5 pt-1">
           <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">기 간</span>
-          <span>&nbsp; 5년간</span>
+          <span class="font-semibold  ">&nbsp;5년간</span>
         </div>
-        <div class="pr-8">
+        <div class="pr-5 max-[940px]pb-2 pt-1">
           <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">대 상</span>
-          <span>&nbsp; 누구나(일부 제외)</span>
+          <span class="font-semibold  ">&nbsp;누구나(일부 제외)</span>
         </div>
-        <div class="">
+        <div class="pt-1">
           <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">지 원</span>
-          <span>&nbsp; 지원금액 300만원~500만원</span>
+          <span class="font-semibold  ">&nbsp;지원금액 300만원~500만원</span>
         </div>
       </div>
     </div>
@@ -42,11 +42,11 @@
     </div>
 
     <div class="flex flex-wrap gap-8 items-center justify-center py-10">
-      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-7 py-9 max-[450px]:px-2 max-[450px]:py-6 "><img class="max-[450px]:w-[80%] m-auto " src="./src/sample/card_c_1.svg" alt=""></div>
-      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-7 py-9 max-[450px]:px-2 max-[450px]:py-6"><img class="max-[450px]:w-[80%] m-auto " src="./src/sample/card_c_2.svg" alt=""></div>
-      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-8 py-9 max-[450px]:px-2 max-[450px]:py-5"><img class="max-[450px]:w-[80%] m-auto" src="./src/sample/card_c_3.svg" alt=""></div>
-      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-12 py-11 max-[450px]:px-6 max-[450px]:py-7"><img class="max-[450px]:w-[80%] m-auto" src="./src/sample/card_c_4.svg" alt=""></div>
-      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] px-12 py-11 max-[450px]:px-8 max-[450px]:py-7"><img class="max-[450px]:w-[100%] m-auto" src="./src/sample/card_c_5.svg" alt=""></div>
+      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-7 py-9 max-[500px]:px-2 max-[500px]:py-6 "><img class="max-[500px]:w-[80%] m-auto " src="./src/sample/card_c_1.svg" alt=""></div>
+      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-7 py-9 max-[500px]:px-2 max-[500px]:py-6"><img class="max-[500px]:w-[80%] m-auto " src="./src/sample/card_c_2.svg" alt=""></div>
+      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-8 py-9 max-[500px]:px-2 max-[500px]:py-5"><img class="max-[500px]:w-[80%] m-auto" src="./src/sample/card_c_3.svg" alt=""></div>
+      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] relative after:content-['>'] after:absolute after:top-[45%] after:-right-[26px] after:text-3xl after:text-[#999999]  px-12 py-11 max-[500px]:px-6 max-[500px]:py-7"><img class="max-[500px]:w-[80%] m-auto" src="./src/sample/card_c_4.svg" alt=""></div>
+      <div class=" bg-white rounded-full border-dashed border-2 border-[#AAAAAA] px-12 py-11 max-[500px]:px-8 max-[500px]:py-7"><img class="max-[500px]:w-[100%] m-auto" src="./src/sample/card_c_5.svg" alt=""></div>
     </div>
 
     <div class="flex flex-wrap justify-center items-center text-center gap-16">

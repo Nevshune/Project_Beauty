@@ -17,7 +17,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정] <span class="text-[#0124A2] text-[0.9em]">(교육대상 : 의료인)</span>
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal space-y-1">
         <div>1. 스킨아트어원, 변천사, 문신과 스킨아트의 차이, 이론</div>
         <div>2. 각 재료별 사용설명과 성분, 위생과 살균이론, 관리차트 작성요령</div>
         <div>3. 아이 유형별 포인트 찾기 시술방법, 아이라인 디자인연습</div>

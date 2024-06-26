@@ -19,7 +19,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정]
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal space-y-1">
         <div>O.T</div>
         <div>1. 클렌징, 해면, 온타올 실전사용법 살롱테크닉 및 월컴 두피관리 테크닉</div>
         <div>2. 등관리 테크닉</div>

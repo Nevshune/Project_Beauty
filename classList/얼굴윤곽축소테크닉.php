@@ -19,7 +19,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정]
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal  space-y-1">
         <div>O.T</div>
         <div>1. 피부의 구조와 생리, 안면 및 두피 주요 혈자리 이론 및 실습</div>
         <div>2. 얼굴 윤곽축소 관리 테크닉 1</div>

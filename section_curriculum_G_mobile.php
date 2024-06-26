@@ -25,7 +25,7 @@
                     </button>
                     <div class="new-accordion-content max-h-0 flex flex-col overflow-hidden">
                         <div class="px-4 py-6">
-                            <?php include './classList/피부국가자격증과정.php' ?>
+                            <?php include './classList/국비과정실기.php' ?>
                         </div>
                     </div>
                 </div>
@@ -34,12 +34,12 @@
                     <button class="new-accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_G_2.jpg')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
                         <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-lg">
                             <div class="text-lg">미용사(피부)국가자격증취득과정</div>
-                            <div class="text-2xl font-bold">단기속성(실기)</div>
+                            <div class="text-2xl font-bold">단기속성(필기+실기)</div>
                         </div>
                     </button>
-                    <div class="new-accordion-content max-h-0 flex flex-col text-[0.9em] text-[#777777]">
+                    <div class="new-accordion-content max-h-0 flex flex-col text-[0.9em]">
                         <div class="px-4 py-6">
-                            <?php include './classList/페이스실무살롱테크닉.php' ?>
+                            <?php include './classList/국비과정필기실기.php' ?>
                         </div>
                     </div>
                 </div>
