@@ -25,14 +25,22 @@
             </div>
 
             <div class="py-8">
-                <div class="text-4xl max-[500px]:text-3xl text-[#575757] font-extrabold ">국비지원훈련과정 수강신청방법</div>
+                <div class="text-4xl max-[500px]:text-2xl text-[#575757] font-extrabold px-3">국비지원훈련과정 수강신청방법</div>
             </div>
 
-            <div class="flex items-center text-xl max-[500px]:text-lg">
-                <span class="text-[0.9rem] text-[#F9804C]">■</span>&nbsp; 아래 이미지에 연결된 페이지로 이동, 검색, 신청
+            <div class="flex items-center text-xl max-[500px]:text-lg px-2">
+                <span class="text-[0.9rem] text-[#F9804C]">■</span>&nbsp;HRD-net으로 이동후 검색·신청
             </div>
-            <a href="https://www.hrd.go.kr/hrdp/ti/ptiao/PTIAO0300L.do" target="_blank">
-                <img src="./src/img/Nebeka.png" alt="" class="w-full">
+            <a href="https://www.hrd.go.kr/hrdp/ti/ptiao/PTIAO0300L.do" target="_blank" class="w-full">
+                <div class="flex gap-0 space-x-0 relative min-h-32 my-4">
+
+                    <img src="./src/img/Nebeka.png" alt="" class="w-full max-[650px]:hidden">
+                    <div class="w-[320px] absolute top-[50%] left-[50%] py-12 rounded-lg bg-yellow-400   text-xl flex justify-center items-end transform translate-x-[-50%] translate-y-[-50%] text-white font-bold">
+                        <img src="./src/logo/header_logo.png" alt="" class="max-w-40">
+                        <div class=" flex-nowrap pl-2">신청하러 가기</div>
+                    </div>
+                    
+                </div>
             </a>
         </div>
         <!-- 교육과정 단기 -->

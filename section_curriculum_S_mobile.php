@@ -1,4 +1,4 @@
-<div class="w-full text-3xl max-[500px]:text-2xl font-medium mb-4 flex items-center">
+<div class="w-full text-3xl max-[500px]:text-2xl font-medium mb-4 flex items-center px-5">
     <p class="bg-[#F08300] inline-block font-black ">&nbsp;</p>
     <p class="pt-2">&nbsp;단기속성</p>
 </div>

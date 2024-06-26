@@ -5,22 +5,22 @@
     <div class="font-extrabold text-7xl mx-auto text-[#000848] text-center  max-[700px]:text-5xl max-[400px]:text-4xl">국민내일 배움카드</div>
 
     <div class="font-extrabold text-3xl mx-auto text-[#575757] text-center pt-3 max-[700px]:text-2xl max-[400px]:text-2xl break-keep">카드 한 장으로 시작하는 다양한 훈련, 국민내일배움카드</div>
-
-    <div class="flex flex-wrap justify-center items-center text-2xl text-[#0075FF] gap-3 pt-16 pb-7 max-[700px]:text-xl max-[450px]:text-lg">
-      <div>
-        <span class="bg-white border-[1px] border-[#0075FF] px-3 py-2 rounded-full leading-none">기 간</span>
-        <span>5년간</span>
-      </div>
-      <div class="px-8 max-[700px]:px-2 max-[700px]:pr-2">
-        <span class="bg-white border-[1px] border-[#0075FF] px-3 py-2 rounded-full leading-none">대 상</span>
-        <span>누구나(일부 제외)</span>
-      </div>
-      <div class="">
-        <span class="bg-white border-[1px] border-[#0075FF] px-3 py-2 rounded-full leading-none">지 원</span>
-        <span>지원금액 300만원~500만원</span>
+    <div class="w-full flex justify-center items-center max-[800px]:px-8">
+      <div class="w-full max-[940px]:max-w-[640px] flex flex-wrap justify-center items-center max-[940px]:justify-start  text-2xl text-[#0075FF] gap-3 pt-16 pb-7 max-[700px]:text-xl max-[450px]:text-lg ">
+        <div class="pr-8">
+          <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">기 간</span>
+          <span>&nbsp; 5년간</span>
+        </div>
+        <div class="pr-8">
+          <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">대 상</span>
+          <span>&nbsp; 누구나(일부 제외)</span>
+        </div>
+        <div class="">
+          <span class="bg-white border-[1px] border-[#0075FF] px-3 py-1 rounded-lg leading-none">지 원</span>
+          <span>&nbsp; 지원금액 300만원~500만원</span>
+        </div>
       </div>
     </div>
-
     <div class="text-center text-[#575757]">※자세한 내용은 아래 ‘신청방법 안내’ 아이콘에 연결된 사이트를 방문하셔서 확인하시기 바랍니다.</div>
 
     <div class="w-full max-w-[1020px] m-auto flex justify-center gap-2 pt-14 pb-7">
