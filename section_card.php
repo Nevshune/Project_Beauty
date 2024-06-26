@@ -11,7 +11,7 @@
         <span class="bg-white border-[1px] border-[#0075FF] px-3 py-2 rounded-full leading-none">기 간</span>
         <span>5년간</span>
       </div>
-      <div class="px-8">
+      <div class="px-8 max-[700px]:px-2 max-[700px]:pr-2">
         <span class="bg-white border-[1px] border-[#0075FF] px-3 py-2 rounded-full leading-none">대 상</span>
         <span>누구나(일부 제외)</span>
       </div>
