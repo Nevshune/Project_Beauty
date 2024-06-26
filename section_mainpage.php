@@ -8,13 +8,9 @@
             <div class="w-full max-w-[800px] bg-white/30 backdrop-blur-[12px] border-white/50 shadow-sm rounded-3xl">
                 <img src="./src/logo/JS_Logo-mainfull.svg" alt="" class="w-full py-12 px-20 max-[700px]:px-5 max-[700px]:py-8 shadow-md">
             </div>
-            <div class="w-full max-w-[1440px] text-xl text-white flex flex-col items-end px-[5%] max-md:hidden">
-                <p>피부만을 위한 전문 대표원장의 지도로</p>
-                <p>최상의 교육을 통해</p>
-                <p>최단기간 <span class="text-[1.1em] font-bold">피부국가자격증 취득</span>부터</p>
-                <p>업계최고 <span class="text-[1.1em] font-bold">피부전문가를 양성</span>하는</p>
-                <p><span class="text-[1.1em] font-bold">취업, 창업에 특화된 피부전문교육 기관</span></p>
-            </div>
+           <div class="w-full h-28">
+
+           </div>
         </swiper-slide>
 
         <swiper-slide class="h-full w-full flex flex-col justify-center items-center text-3xl relative bg-[url('./src/img/Top-BG/BG002.jpg')] px-4 bg-cover  bg-center space-y-24">
