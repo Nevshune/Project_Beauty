@@ -1,6 +1,7 @@
 <?php include './Admin/inc/dbconfig.php';
 $sql = "SELECT * FROM class_list WHERE classExpose = 1";
 $result = $conn->query($sql);
+
 ?>
 <?php
 $title = "미용아카데미로 전화하세요를 줄이면 미아콜";
