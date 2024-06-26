@@ -1,12 +1,12 @@
 <div id="class_name" class="font-extrabold  text-4xl max-[500px]:text-3xl text-[#0124A2] pb-2 ">
-    미용사(피부)국자자격증취득과정 단기속성(필기+실기)
+    <span class="max-md:hidden">미용사(피부)국자자격증취득과정</span> <span class="max-md:block">단기속성(필기+실기)</span>
 </div>
 <div class="pb-8 text-2xl font-bold text-[#777777] break-keep ">
     -180시간(변동가능)-
 </div>
 
 <div class="pb-8">    
-    <ul class="custom-list_3 flex flex-col pl-2 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <ul class="custom-list_3 flex flex-col pl-2 max-[500px]:pl-4 text-xl font-bold max-md:font-normal  space-y-1">
         <li> O.T (부정훈련방지, 훈련생서약서, 개인정보수집에 관한 안내 등)</li>
         <li> 필기(피부미용학, 피부학 및 해부생리학, 피부미용기기학, 화장품학, 공중위생관리학)</li>
         <li> 웨건, 베드셋팅방법, 클렌징, 눈썹정리</li>

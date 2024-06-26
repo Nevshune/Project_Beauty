@@ -9,7 +9,7 @@
     <div class="text-2xl font-bold mt-4 pb-3">
         [교육과정] <span class="text-[#0124A2] text-[0.9em]">(교육대상 : 의료인)</span>
     </div>
-    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold space-y-1">
+    <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal space-y-1">
         <div>1. 경쟁력 있는 샵 컨셉 결정</div>
         <div>2. 컨셉에 따른 샵의 입지 선정</div>
         <div>3. 오픈 방식 결정에 따른 체크리스트 (기존샵 인수, 신규 인테리어, 재료선정 등)</div>
