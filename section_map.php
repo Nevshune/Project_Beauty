@@ -17,7 +17,7 @@
     </div>
 
     <div class="w-full max-w-[1440px] py-8 px-16 max-[500px]:px-10 space-y-2">
-        <div class=" inline-block mr-6"><span class="mr-3 font-bold">주소</span><span class=" font-light">인천광역시 남동구 주안로 235번길 2, 2,3(간석동)</span></div>
+        <div class=" inline-block mr-6"><span class="mr-3 font-bold">주소</span><span class=" font-light">인천광역시 남동구 주안로 235번길 2, 2,3층(간석동)</span></div>
         <div class=" inline-block mr-6"><span class="mr-3 font-bold">전화</span><span class=" font-light">010-5171-2322</span></div>
     </div>
 </div>

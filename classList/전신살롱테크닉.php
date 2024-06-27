@@ -21,7 +21,7 @@
     </div>
     <div class="flex flex-col pl-8 max-[500px]:pl-4 text-xl font-bold max-md:font-normal space-y-1">
         <div>O.T</div>
-        <div>1. 클렌징, 해면, 온타올 실전사용법 살롱테크닉 및 월컴 두피관리 테크닉</div>
+        <div>1. 클렌징, 해면, 온타올 실전사용법 살롱테크닉 및 웰컴 두피관리 테크닉</div>
         <div>2. 등관리 테크닉</div>
         <div>3. 하체 후면 관리 테크닉</div>
         <div>4. 두피 및 페이스 테크닉</div>

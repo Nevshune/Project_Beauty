@@ -19,9 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['body'])) {
     $ch = curl_init();
     $url = 'http://push.doday.net/api/push';
     $data = array(
-        'uuid' => 'a69e033ff97eb7d6',
-        'secret_key' => 'hOacbTxluU',
-        'code' => 'KdPushQueue',
+        'uuid' => 'fe420d97db39543f',
+        'secret_key' => 'ZYhgMKZAJs',
+        'code' => 'jsacademy', // 여기에 그룹 만들어서 그룹코드 넣어야함
         'body' => $body_content
     );
 
