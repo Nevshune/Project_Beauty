@@ -4,7 +4,7 @@ $result = $conn->query($sql);
 
 ?>
 <?php
-$title = "미용아카데미로 전화하세요를 줄이면 미아콜";
+$title = "JS 뷰티아카데미";
 ?>
 <?php include './header.php'; ?>
 

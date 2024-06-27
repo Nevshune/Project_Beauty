@@ -16,7 +16,7 @@
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <!-- aos js -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+  <link rel="icon" href="./src/icon/favicon2.ico">
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <script>
