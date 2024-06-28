@@ -55,16 +55,37 @@
             const content = header.nextElementSibling;
             const isOpening = !content.style.maxHeight;
 
-            // If the clicked menu is opening, set its max-height to its scroll height
+            // 모든 다른 아코디언 콘텐츠를 닫습니다.
+            document.querySelectorAll('.accordion-content').forEach(otherContent => {
+                if (otherContent !== content) {
+                    otherContent.style.maxHeight = null;
+                }
+            });
+
             if (isOpening) {
                 content.style.maxHeight = content.scrollHeight + 'px';
-                header.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+                setTimeout(() => {
+                    const headerOffset = 170;
+                    const elementPosition = header.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }, 300); // 300ms 지연 후 스크롤 실행
             } else {
-                // If the clicked menu is closing, set its max-height to null
                 content.style.maxHeight = null;
+                setTimeout(() => {
+                    const headerOffset = 100;
+                    const elementPosition = header.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }, 300); // 300ms 지연 후 스크롤 실행
             }
         });
     });

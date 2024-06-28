@@ -20,7 +20,7 @@
                     <button class="accordion-header  relative w-full bg-[url('./src/img/curriculum/curroculum_S_1.png')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden ">
                         <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-2xl">피부국가자격증과정</div>
                     </button>
-                    <div class="accordion-content max-h-0 flex flex-col overflow-hidden">
+                    <div class="accordion-content max-h-0 flex flex-col overflow-hidden transition-all duration-150">
                         <div class="px-4 py-6">
                             <?php include './classList/피부국가자격증과정.php' ?>
                         </div>
@@ -116,13 +116,34 @@
             const content = header.nextElementSibling;
             const isOpening = !content.style.maxHeight;
 
-            // If the clicked menu is opening, set its max-height to its scroll height
+            document.querySelectorAll('.accordion-content').forEach(otherContent => {
+                if (otherContent !== content) {
+                    otherContent.style.maxHeight = null;
+                }
+            });
+
             if (isOpening) {
                 content.style.maxHeight = content.scrollHeight + 'px';
-                header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                setTimeout(() => {
+                    const headerOffset = 170;
+                    const elementPosition = header.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }, 300); // 300ms delay to wait for the collapse animation to finish
             } else {
-                // If the clicked menu is closing, set its max-height to null
                 content.style.maxHeight = null;
+                const headerOffset = 100;
+                const elementPosition = header.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
             }
         });
     });
