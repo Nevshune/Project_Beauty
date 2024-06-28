@@ -1,4 +1,4 @@
-<div id="class_name" class="font-extrabold  text-5xl max-[500px]:text-4xl text-[#0124A2] pb-2 ">
+<div id="class_name" class="font-extrabold  text-5xl max-[500px]:text-4xl text-[#0124A2] pt-7 pb-4 ">
     창업컨설팅과정
 </div>
 <div class="p-2 pb-8 text-xl text-[#333333] break-keep ">
@@ -19,5 +19,5 @@
     </div>
 </div>
 
-<div class="m-auto flex justify-center py-11"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
+<div class="m-auto flex justify-center  pt-6 pb-6 max-[767.5px]:pt-0"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
 

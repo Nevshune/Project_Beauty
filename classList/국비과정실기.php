@@ -1,11 +1,11 @@
 
-<div id="class_name" class="font-extrabold  text-4xl max-[500px]:text-3xl text-[#0124A2] pb-2 ">
+<div id="class_name" class="font-extrabold  text-4xl max-[500px]:text-3xl text-[#0124A2] pt-7 pb-4 ">
     <span class="max-md:hidden">미용사(피부)국자자격증취득과정</span> <span class="max-md:block">단기속성(실기)</span>
 </div>
 <div class="pb-1 text-2xl font-bold text-[#777777] break-keep ">
     -162시간(변동가능)-
 </div>
-<div class="pb-8 text-xl max-md:text-lg max-[500px]:text-sm text-[#333333] break-keep ">
+<div class="pb-11 text-xl max-md:text-lg max-[500px]:text-sm text-[#333333] break-keep ">
     <span class="max-md:block"><span class="text-orange-600 ">*</span> 이과정은 실기만 집중하여 단기간 훈련하는 과정입니다.</span> <span class="max-md:block">필기시험을 미리 취득해 오시길 추천드립니다.</span>
 </div>
 
@@ -22,5 +22,5 @@
     </ul>
 </div>
 
-<div class="m-auto flex justify-center py-11"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
+<div class="m-auto flex justify-center  pb-6"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
 
