@@ -55,7 +55,7 @@
             const isOpening = !content.style.maxHeight;
 
             // 모든 다른 아코디언 콘텐츠를 닫습니다.
-            document.querySelectorAll('.accordion-content').forEach(otherContent => {
+            document.querySelectorAll('.new-accordion-content').forEach(otherContent => {
                 if (otherContent !== content) {
                     otherContent.style.maxHeight = null;
                 }
@@ -89,3 +89,4 @@
         });
     });
 </script>
+
