@@ -14,7 +14,7 @@
 <div id="ToggleMenu" class="w-full duration-150 font-AppleSDGothicNeo">
     <div class="relative w-full flex flex-col justify-start items-center">
         <div class="w-full mt-2 h-auto">
-            <div class="flex flex-col px-5 space-y-8">
+            <div class="flex flex-col px-5 space-y-3">
 
                 <div class="accordion-item ">
                     <button class="accordion-header  relative w-full bg-[url('./src/img/curriculum/curroculum_S_1.png')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden ">

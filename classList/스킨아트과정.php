@@ -1,7 +1,7 @@
-<div id="class_name" class="font-extrabold  text-5xl max-[500px]:text-4xl text-[#0124A2] pb-2 ">
+<div id="class_name" class="font-extrabold  text-5xl max-[500px]:text-4xl text-[#0124A2] pt-7 pb-4">
     스킨아트과정
 </div>
-<div class="p-2 pb-8 text-xl text-[#333333] break-keep ">
+<div class="p-2 pb-11 text-xl text-[#333333] break-keep ">
     스킨아트 과정은 현대인들이 원하는 모양으로 오랫동안 아름다움을 유지시킬 수 있고 좋은 인상을 줄 수 있도록 눈썹, 아이라인, 헤어라인, 입술 등에 상황에 따른 굉장히 중요한 기술적 집중력을 발휘하여 아름답게 디자인 할 수 있는 전문기술을 교육합니다.
 </div>
 <div class="pb-4">
@@ -63,4 +63,4 @@
     </ul>
 </div>
 
-<div class="m-auto flex justify-center py-11"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>
+<div class="m-auto flex justify-center  pt-6 pb-6 max-[767.5px]:pt-0"><a href="#pushq" class=" m-auto  bg-[#7F00AC] rounded-full px-6 py-3 font-bold text-2xl text-white">교육상담</a> </div>

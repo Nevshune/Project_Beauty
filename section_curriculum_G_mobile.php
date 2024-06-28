@@ -13,7 +13,7 @@
 <div id="NewToggleMenu" class="w-full duration-150 font-AppleSDGothicNeo">
     <div class="relative w-full flex flex-col justify-start items-center">
         <div class="w-full mt-2 h-auto">
-            <div class="flex flex-col px-5 space-y-8">
+            <div class="flex flex-col px-5 space-y-3">
 
                 <div class="new-accordion-item">
                     <button class="new-accordion-header relative w-full bg-[url('./src/img/curriculum/curroculum_G_1.jpg')] bg-center h-52 py-3 focus:outline-none rounded-lg overflow-hidden">
@@ -21,7 +21,6 @@
                             <div class="text-lg">미용사(피부)국가자격증취득과정</div>
                             <div class="text-2xl font-bold">단기속성(실기)</div>
                         </div>
-                        <div class="absolute bottom-0 w-full bg-black/80 text-center py-2 text-white text-2xl"></div>
                     </button>
                     <div class="new-accordion-content max-h-0 flex flex-col overflow-hidden">
                         <div class="px-4 py-6">

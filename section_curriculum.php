@@ -15,7 +15,7 @@
         <div class="max-[767.5px]:hidden w-full px-4"><?php include './section_curriculum_G.php' ?></div>
         <div class="min-[767.5px]:hidden w-full px-2"><?php include './section_curriculum_G_mobile.php' ?></div>
 
-        <div class="w-full py-20 px-4 max-md:px-8">
+        <div class="w-full py-20 max-[767.5px]:py-10 px-4 max-md:px-8">
             <div class="w-full rounded-xl bg-[#FFD15D] flex p-6 max-md:p-2 ">
                 <div class="text-[80px] max-[500px]:[48px]  w-28 flex justify-center items-center font-extrabold">!</div>
                 <div class="w-full flex leading-tight flex-col justify-center break-keep text-xl max-[500px]:text-lg font-light">
