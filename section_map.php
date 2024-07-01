@@ -8,7 +8,7 @@
     </div>
     <div class="w-full max-w-[1440px] px-10">
         <div id="map" class="w-full h-[550px] max-[500px]:h-[400px] "></div>
-        <div class="w-full flex justify-between">
+        <div class="w-full flex justify-between pt-2">
 
             <div class="break-keep">
                 <span class="mr-6 max-[675px]:flex">
