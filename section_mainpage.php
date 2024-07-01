@@ -1,6 +1,6 @@
 <section id="main_top" class="w-full h-screen pt-[90px] max-[900px]:pt-[134px] max-[628px]:pt-[160px] max-[700px]:pb-[140px] pb-[100px] ">
     <!-- Slider main container -->
-    <swiper-container class="mySwiper w-full h-full " pagination="true" loop="true" autoplay-delay="52000">
+    <swiper-container class="mySwiper w-full h-full " pagination="true" loop="true" autoplay-delay="2000">
 
         
 
