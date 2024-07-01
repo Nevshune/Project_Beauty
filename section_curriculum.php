@@ -15,8 +15,8 @@
         <div class="max-[767.5px]:hidden w-full px-4"><?php include './section_curriculum_G.php' ?></div>
         <div class="min-[767.5px]:hidden w-full px-2"><?php include './section_curriculum_G_mobile.php' ?></div>
 
-        <div class="w-full py-20 max-[767.5px]:py-10 px-4 max-md:px-8">
-            <div class="pb-3 mt-8">
+        <div class="w-full pt-20 pb-20 max-[767px]:pt-14 max-[767px]:pb-30 px-4 max-md:px-8">
+            <div class="pb-3">
                 <div class="text-4xl max-[535px]:text-2xl text-[#575757] font-extrabold px-3">국비지원훈련과정 수강신청방법</div>
             </div>
 
@@ -24,7 +24,7 @@
                 <span class="text-[0.9rem] text-[#F9804C]">■</span>&nbsp;HRD-net으로 이동후 검색·신청
             </div>
             <a href="https://www.hrd.go.kr/hrdp/ti/ptiao/PTIAO0300L.do" target="_blank" class="w-full">
-                <div class="flex gap-0 space-x-0 relative min-h-32 mt-8 mb-8">
+                <div class="flex gap-0 space-x-0 relative min-h-32 mt-2 mb-4">
 
                     <img src="./src/img/Nebeka.png" alt="" class="w-full max-[650px]:hidden">
                     <div class="w-[320px] absolute top-[50%] left-[50%] py-12 max-[650px]:py-6 rounded-xl bg-[#DCEBFF]/80 max-[650px]:bg-white  text-xl flex justify-center items-end transform 
