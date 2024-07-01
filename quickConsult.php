@@ -39,7 +39,7 @@
                     </select>
                 </div>
             </div>
-            <div class=" flex max-[1430px]:flex-col max-[700px]:flex-row max-[400px]:flex-col justify-center items-center   gap-2 max-[400px]:gap-0">
+            <div class=" max-[700px]:w-full flex max-[1430px]:flex-col max-[700px]:flex-row max-[400px]:flex-col justify-center max-[700px]:justify-between items-center   gap-2 max-[400px]:gap-0">
                 <div class="flex items-center text-nowrap">
                     <input type="checkbox" id="chk">
                     <label for="chk" class="ps-1">개인정보 수집에 동의합니다.</label>
