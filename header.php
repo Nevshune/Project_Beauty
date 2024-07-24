@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 메타 키워드 (Meta Keywords, 덜 중요하지만 참고) -->
+  <meta name="keywords" content="피부 미용, 미용 국비자격시험, 피부 미용 전문교육기관, 뷰티아카데미, 미용사 국가자격취득, 피부 국가자격증 취득, 피부국가자격증, 페이스실무살롱테크닉, 페이스, 얼굴윤곽축소테크닉, 얼굴윤곽, 전신살롱, 아로마, 아로마풋케어, 풋, 케어, 발 관리, 왁싱, 스킨아트, 창업컨설팅, 국제뷰티 EXPO 기능대회 "> 
   <title><?php echo $title; ?></title>
   <!-- 폰트어썸 -->
   <script src="https://kit.fontawesome.com/1821147619.js" crossorigin="anonymous"></script>
